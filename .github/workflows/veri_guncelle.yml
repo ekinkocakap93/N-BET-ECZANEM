@@ -1,0 +1,36 @@
+name: Otomatik Nöbetçi Eczane Güncelleyici
+
+on:
+  schedule:
+    # Türkiye saati ile Sabah 08:30 ve Akşam 17:30
+    - cron: '30 05 * * *'
+    - cron: '30 14 * * *'
+  workflow_dispatch: # GitHub üzerinden manuel olarak da tek tıkla çalıştırabilmeni sağlar
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Depoyu Sunucuya Çek
+        uses: actions/checkout@v3
+
+      - name: Python'u Hazırla
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Gerekli Motor Parçalarını (Kütüphaneleri) Yükle
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Zırhlı Botu Çalıştır
+        run: python bot.py
+
+      - name: Yeni Verileri NÖBETÇİ CEPTE Depolamasına (eczaneler.json) Kaydet
+        run: |
+          git config --global user.name "Nöbetçi Bot"
+          git config --global user.email "bot@nobetcicepte.com"
+          git add eczaneler.json
+          git commit -m "🚀 81 İl ve KKTC verileri güncellendi" || exit 0
+          git push
