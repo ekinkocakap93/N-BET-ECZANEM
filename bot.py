@@ -1,7 +1,7 @@
 import json
 import time
 import random
-import requests
+import cloudscraper
 from bs4 import BeautifulSoup
 
 SEHIRLER = [
@@ -10,44 +10,36 @@ SEHIRLER = [
     "kibris-lefkosa"
 ]
 
-USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15"
-]
-
 def eczaneleri_getir(sehir_eki):
     url = f"https://www.eczaneler.gen.tr/nobetci-{sehir_eki}"
-    headers = {
-        "User-Agent": random.choice(USER_AGENTS),
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-        "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7"
-    }
     sehir_eczaneleri = []
 
     try:
         print(f"📡 BASTILIYOR: {url}")
-        response = requests.get(url, headers=headers, timeout=15)
+        
+        # Cloudflare'i aşmak için özel tarayıcı taklidi yapan kazıyıcıyı oluşturuyoruz
+        scraper = cloudscraper.create_scraper(browser={
+            'browser': 'chrome',
+            'platform': 'windows',
+            'desktop': True
+        })
+        
+        response = scraper.get(url, timeout=20)
         response.encoding = 'utf-8'
         
-        # Sitenin bize ne cevap verdiğini ekrana yazdırıyoruz (Çok Kritik!)
         print(f"🚦 SİTE CEVAP KODU: {response.status_code}")
         
         if response.status_code != 200:
-            print("❌ SİTE BİZİ ENGELLEDİ (Cloudflare veya Güvenlik Duvarı)")
+            print("❌ ENGEL AŞILAMADI.")
             return []
 
         soup = BeautifulSoup(response.text, 'html.parser')
-        
-        # En kaba kuvvet (Brute-Force) arama yöntemi:
-        # İsimlerin genellikle bulunduğu büyük başlıkları (h2, span, a) ve class'ı "isim" veya "title" olanları ara
         isim_etiketleri = soup.find_all(class_=['isim', 'title', 'eczane-adi'])
         
         for etiket in isim_etiketleri:
             isim = etiket.text.strip()
-            # Eğer isim boşsa atla
             if not isim: continue
                 
-            # Ebeveyn kutuyu bul (kartın tamamı)
             kart = etiket.find_parent('div', class_=['row', 'panel', 'card']) or etiket.find_parent('tr')
             if kart:
                 adres_etiket = kart.find(class_=['adres', 'text-muted', 'address'])
@@ -56,7 +48,6 @@ def eczaneleri_getir(sehir_eki):
                 adres = adres_etiket.text.strip() if adres_etiket else "Adres çekilemedi"
                 telefon = tel_etiket.text.strip() if tel_etiket else "Telefon çekilemedi"
                 
-                # Sadece gerçekten isim gibi duranları ekle (en az 3 harf)
                 if len(isim) > 3:
                     sehir_eczaneleri.append({
                         "isim": isim,
@@ -64,7 +55,6 @@ def eczaneleri_getir(sehir_eki):
                         "telefon": telefon
                     })
         
-        # Eğer div'lerden bulamadıysa, klasik tablo (table) avına çık:
         if not sehir_eczaneleri:
             tablolar = soup.find_all("table")
             for tablo in tablolar:
@@ -87,13 +77,13 @@ def eczaneleri_getir(sehir_eki):
 
 def ana_motor():
     tum_eczaneler = []
-    print("🚀 Nöbetçi Cepte Teşhis Motoru Başlatıldı...\n")
+    print("🚀 Nöbetçi Cepte V2 Motoru Başlatıldı...\n")
     
     for sehir in SEHIRLER:
         veriler = eczaneleri_getir(sehir)
         if veriler:
             tum_eczaneler.extend(veriler)
-        time.sleep(random.uniform(2.0, 4.0))
+        time.sleep(random.uniform(3.0, 6.0))
         
     with open("eczaneler.json", "w", encoding="utf-8") as f:
         json.dump({"eczaneler": tum_eczaneler}, f, ensure_ascii=False, indent=4)
