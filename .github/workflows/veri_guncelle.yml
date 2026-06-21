@@ -2,10 +2,13 @@ name: Otomatik Nöbetçi Eczane Güncelleyici
 
 on:
   schedule:
-    # Türkiye saati ile Sabah 08:30 ve Akşam 17:30
     - cron: '30 05 * * *'
     - cron: '30 14 * * *'
-  workflow_dispatch: # GitHub üzerinden manuel olarak da tek tıkla çalıştırabilmeni sağlar
+  workflow_dispatch:
+
+# 🎟️ İŞTE GİZLİ KİLİDİ AÇAN VIP İZNİ BURASI
+permissions:
+  contents: write
 
 jobs:
   scrape-and-update:
