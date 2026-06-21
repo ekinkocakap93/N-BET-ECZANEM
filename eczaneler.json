@@ -1,3 +1,2414 @@
 {
-    "eczaneler": []
+    "eczaneler": [
+        {
+            "isim": "Burgazada Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Merkez Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Hayat Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Deniz Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Boğazköy Şifa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Elya Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çiçek Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Polen Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Gökçe Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kelebek Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çakır Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Nilüfer Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yakamoz Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Say Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Melek Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Taşçı Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Mahmutbey Cadde Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Feriye Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Filiz Doğan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Akın Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Alev Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Nuray Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yakamoz Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Nimet Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Özhan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Büyük Umut Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Medikule Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Olimpa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Cadde Park Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Elif İpek Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Rüzgar Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Özge Selçik Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Göksu Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ak Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kameroğlu Botanik Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kavaklı Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Esra Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Güleryüz Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kasımpaşa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Miralay Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Deva Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Doğal Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Selin Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çatalca Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çamlık Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ormanköy Cadde Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Akan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ihlamur Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Günışığı Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Hep İstanbul Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Lotus Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Öztürk Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Aşkın Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Bal Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Esenyurt Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Nur Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Biricik Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "İnci Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Betül Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Özyeşil Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Topkapı Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Öztekin Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ihlamur Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Tuna Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Huzur Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çelikel Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yalvaç Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Gülnur Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "İpek Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Esat Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Enes Uygun Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Tekdemir Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeldeğirmeni Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Efeoğlu Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Bal Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "İpek Öztürk Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeni Mesut Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Onur Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Cemil Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Deyyaroğlu Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Okan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Balçiçek Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ekin Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Atalay Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Dilek Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeni Su Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Doğa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Durcan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ela Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ayşen Turan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Merve Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kızıl Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Hekimoğlu Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Beyaz Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ayşenur Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Emek Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Tepe Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeni Saray Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Boğaziçi Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Büyük Eczane",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Şile Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeşilçay Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kaptan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Vefa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kürşat Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Emineller Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "İzzetpaşa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Altın Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Mavi Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çiğdem Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Mert Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Dede Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Murat Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Tuğçe Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Dostlar Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Halk Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Saka Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Önder Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "3 Gül Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Finanskent Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Dumlupınar Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Turkuaz Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Hülya Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Neva Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Uğurlu Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Merih Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Zafer Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Gülistan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Şölen Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Burgazada Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Büyükada Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Hayat Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Deniz Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeni Şifa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Merve Nur Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Nilay Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Görkem Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ataşehir Plus Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yaşam Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Efsun Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çınar Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Mali Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Parseller Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Derya Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Tatlıpınar Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Tan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yavuz Selim Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Güneşli Deniz Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Mahmutbey Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Vega Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Filiz Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Bizim Burcu Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeni Handan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Hijenya Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Üstüner Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeni Hayat Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Işıl Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Didem Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Taştan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Papatya Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kartaltepe Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Menekşe Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Hüsna Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Cem Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Gözde Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeni Eczane",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Karadeniz Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Elif Burçak Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Rana Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Perlavista Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Özdal Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Lotus Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Akkaya Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "İnci Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Taksim Pera Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yağmur Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ender Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çınar Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Özbey Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Atabetül Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Altınsoy Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ürün Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Selda Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Büşra Aslan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yaşam Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Akyürek Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Egenur Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Bağlarçeşme Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yaşam Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Gazel Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Hürriyet Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Safa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Göktürk Şifa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Papatya Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Cerrahpaşa Oksijen Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Mutlu Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ayasofya Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeni Bahadır Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Hüma Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Elitez Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Elif Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Müge Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Nadirem Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Başak Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Göktürk Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Sarıyıldız Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Uraz Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çağrı Selamiçeşme Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Şifa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Suadiye İrem Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Mariposa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Güleşce Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Vatan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeni Nilgün Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "İstanbul Yaşam Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ezgi Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Anadolu Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Turkuaz Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Pelin Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Nehirnaz Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ataç Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Melike Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "İkitelli Gülşen Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Öztürk Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Cadde E-5 Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Egeli Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Boğaziçi Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Emin Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Şifa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Nida Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çınardibi Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çağla Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Seyitoğlu Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Şirin Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Günebakan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ege Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Rings Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Dağhan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Nihal Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ada Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Serhat Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Pınar Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Sema Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ulusoy Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Terapi Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Betül Ketenci Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ağva Şifa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Pelin Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Safa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Selimpaşa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Afşar Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Şükran Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Pamuk Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Nişantaşı Nabız Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çınar Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "İstanbul Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Lavanta Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Didem Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Durak Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Efe Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "50.Yıl Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "İçmeler Ege Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Doğa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "İlhan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Metro Atakent Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kaan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Edanur Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "İrem Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Marmara Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yekta Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Arı Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Güzeltepe Şifam Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Hekimoğlu Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kadir Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Defne Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Halk Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Burgazada Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeni Eczane",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Heybeliada Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Deniz Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Can Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Bizim Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ezgi Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Doğan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Bengisu Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Furkan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Nar Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Acar Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Gül Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Merkez Şifa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Bellis Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Şenkul Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çiğdem Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Mahmutoğlu Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Özhan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Florya Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Filiz Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Marmara Forum Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Emine Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çam Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Muhammed Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Şamlar Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Esra Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Berna Koç Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Bengi Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Levent Çarşı Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ortaköy Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Buse Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kardelen Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Park Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yükseloğlu Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Selçuk Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Burç Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Toros Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "İstiklal Üstün Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Esra Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Harika Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Tepecik Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Emel Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Sağlık Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çekmeköy Su Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Melek Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Meydan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Atışalanı Meydan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Doruk Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Piri Reis Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ziynet Şule Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Tarçın Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Esra Öztürk Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kent Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "İstanbul Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Eyüppark Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Aven Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Haseki Yusufpaşa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Geçer Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Demir Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Öztatlı Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Büşra Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çınar Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Haşhaşlar Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Onur Yıldız Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Tozkoparan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Park Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Nihan Er Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kelebek Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Furkan Dağdelen Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Alfa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Mungan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Şeniz Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Gülhane Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "İlke Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Neşem Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Özsahra Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Gülnihal Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Doğu Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ada Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Zerrin Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Caddepark Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Deva Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Müge Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Fatoş Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Merkez Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Bağlar Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Cemre Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çınar Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Teoman Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Buket Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Esenyalı Merkez Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Gülden Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Sedat Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Enes Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Sarıgazi Can Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Cemal Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Büyükdere Elif Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Tan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kelebek Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ufuk Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeşilçay Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Erciyes Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Merkez Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Tuğba Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Anka Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Bahçe Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Oğuz Kağan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Deniz Pera Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Işık Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ahmet Yesevi Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ayçiçek Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Hicret Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeni Huzur Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Sude Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Berkay Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Tuğba Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Irmak Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Demir Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Eczane Makaracı",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Avrupa Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çamlıca Aslıhan Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ömer Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kiraz Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Zeynep Zengin Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Bulvar Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Hamidi Eczanesi",
+            "adres": "Adres bulunamadı (ISTANBUL)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeni Tepe Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Deniz Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Zeynep Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "İlen Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kaplan Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Atay Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kan Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ronahi Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Nida Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Değer Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Nergis Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ronayi Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Roj Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Derman Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Havin Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Faruk Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Gül Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Esranın Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Sultan Koç Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Berna Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kardelen Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Janya Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Deva Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeni Tepe Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Pınar Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çermik Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeni Derman Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Kaplan Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Atay Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Akarsu Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Bengü Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Nida Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Hazro Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Nergis Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Aktaş Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Roj Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Can Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Aras Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Bulak Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Selamet Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ekin Dila Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Elvan Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Mehmet Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeni Sinem Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Vefa Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Deva Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Latifoğlu Alipınar Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Turkuaz Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yeni Tepe Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Gap Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çermik Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Yorulmaz Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çüngüs Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Şahin Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Eğil Berçem Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "İsranur Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Köksal Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Emir Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Mizgin Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Zehra Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Lice Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Park Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Huzurevleri Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Durgun Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Aile Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ceyhun Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Bayram Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Pasur Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Meya Eczanesi",
+            "adres": "Adres bulunamadı (DIYARBAKIR)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Ferin Eczanesi",
+            "adres": "Adres bulunamadı (KIBRIS-LEFKOSA)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Caneş Eczanesi",
+            "adres": "Adres bulunamadı (KIBRIS-LEFKOSA)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Akdeniz Eczanesi",
+            "adres": "Adres bulunamadı (KIBRIS-LEFKOSA)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Gülten Veli Eczanesi",
+            "adres": "Adres bulunamadı (KIBRIS-LEFKOSA)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Laika Gökçekuş Eczanesi",
+            "adres": "Adres bulunamadı (KIBRIS-LEFKOSA)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çeler Eczanesi",
+            "adres": "Adres bulunamadı (KIBRIS-LEFKOSA)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Sevgi Kırboğa Eczanesi",
+            "adres": "Adres bulunamadı (KIBRIS-LEFKOSA)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Çise Yıldırım Eczanesi",
+            "adres": "Adres bulunamadı (KIBRIS-LEFKOSA)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Miel Eczanesi",
+            "adres": "Adres bulunamadı (KIBRIS-LEFKOSA)",
+            "telefon": "Telefon bulunamadı"
+        },
+        {
+            "isim": "Vaiz Eczanesi",
+            "adres": "Adres bulunamadı (KIBRIS-LEFKOSA)",
+            "telefon": "Telefon bulunamadı"
+        }
+    ]
 }
