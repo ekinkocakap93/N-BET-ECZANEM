@@ -3,6 +3,7 @@ import time
 import random
 import cloudscraper
 from bs4 import BeautifulSoup
+import re
 
 SEHIRLER = [
     "istanbul",
@@ -22,45 +23,52 @@ def eczaneleri_getir(sehir_eki):
 
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        # Sadece eczane isimlerini bularak başla
-        isim_etiketleri = soup.find_all(class_=['isim', 'title', 'eczane-adi'])
+        isim_etiketleri = soup.find_all(['span', 'div', 'a', 'h2'], class_=['isim', 'eczane-adi', 'title'])
 
         for etiket in isim_etiketleri:
             isim = etiket.text.strip()
             if len(isim) < 3: continue
 
-            # Eczanenin bilgilerini kapsayan en dış kutuyu (container) bul
-            kart = etiket.find_parent(['div', 'li', 'tr'], class_=['row', 'panel', 'card', 'eczane-karti']) or etiket.find_parent('tr')
+            # Kartın tamamını kapsayan ebeveyni bul
+            kart = etiket.find_parent('tr')
+            if not kart:
+                kart = etiket.find_parent('div', class_=lambda c: c and any(x in c.lower() for x in ['col-', 'panel', 'card', 'row']))
 
             adres = "Adres bulunamadı"
             telefon = "Telefon bulunamadı"
 
             if kart:
-                # 🧠 METİN ANALİZ MANTIĞI: Kutunun içindeki tüm metinleri sırayla al
-                tum_metinler = list(kart.stripped_strings)
-                
-                # 1. Telefonu Bul (İçinde 10 ile 15 arası rakam olan metin)
-                for metin in reversed(tum_metinler):
-                    rakam_sayisi = sum(c.isdigit() for c in metin)
-                    if 10 <= rakam_sayisi <= 15:
-                        telefon = metin
-                        break
-                
-                # 2. Adresi Bul (İsim, Telefon ve Butonlar hariç kalan metinleri birleştir)
-                adres_parcalari = []
-                yasakli_kelimeler = ['yol tarifi', 'harita', 'konum', 'ara', 'detay', 'açık', 'kapalı', 'nöbetçi']
-                
-                for metin in tum_metinler:
-                    if metin == isim or metin == telefon: 
-                        continue
-                    if metin.lower() in yasakli_kelimeler: 
-                        continue
-                    # Sadece tek harflik gereksiz işaretleri atla, gerisini adrese ekle
-                    if len(metin) > 3: 
-                        adres_parcalari.append(metin)
-                
-                if adres_parcalari:
-                    adres = " ".join(adres_parcalari)
+                # 📞 TELEFONU BUL (Regex Avcısı veya Tıklanabilir Link)
+                tel_link = kart.find('a', href=re.compile(r'tel:'))
+                if tel_link:
+                    telefon = tel_link.text.strip()
+                else:
+                    # Link yoksa tüm metnin içinde 10-11 haneli numara şablonu ara
+                    metin = kart.get_text(" ")
+                    tel_match = re.search(r'0\s?\d{3}\s?\d{3}\s?\d{2}\s?\d{2}|0\d{10}', metin)
+                    if tel_match:
+                        telefon = tel_match.group(0)
+
+                # 📍 ADRESİ BUL (Tablo ise 2. sütun, değilse kart içindeki en uzun anlamlı metin)
+                tdler = kart.find_all('td')
+                if tdler and len(tdler) >= 3:
+                    adres = tdler[1].text.strip()
+                else:
+                    olasi_adresler = []
+                    # Sadece temiz metin parçalarını al
+                    for parca in kart.stripped_strings:
+                        parca = parca.strip()
+                        # İsim, telefon veya buton yazısı olmayan uzun metinleri topla
+                        if len(parca) > 15 and parca != isim and parca != telefon and "Yol" not in parca and "Harita" not in parca and "Konum" not in parca:
+                            olasi_adresler.append(parca)
+                    
+                    if olasi_adresler:
+                        # En uzun cümle %99 ihtimalle adrestir
+                        adres = max(olasi_adresler, key=len)
+
+            # Eczane sitede iki kere basıldıysa (mobil/masaüstü çiftlemesi) sadece birini al
+            if any(e['isim'] == isim for e in sehir_eczaneleri):
+                continue
 
             sehir_eczaneleri.append({
                 "isim": isim,
@@ -77,7 +85,7 @@ def eczaneleri_getir(sehir_eki):
 
 def ana_motor():
     tum_eczaneler = []
-    print("🚀 Nöbetçi Cepte V5 (Metin Analizi) Motoru Başlatıldı...\n")
+    print("🚀 Nöbetçi Cepte V6 (Regex Avcısı) Motoru Başlatıldı...\n")
 
     for sehir in SEHIRLER:
         veriler = eczaneleri_getir(sehir)
