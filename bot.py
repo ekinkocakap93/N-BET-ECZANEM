@@ -3,94 +3,102 @@ import time
 import random
 import requests
 from bs4 import BeautifulSoup
-import os
 
-# Sistemin hedef uzantıları: Hem iller hem de demin bulduğun KKTC bölgeleri
-# Şimdilik testi hızlı yapmak için birkaç bölge koydum, sonradan 81 ili buraya dizeceksin.
 SEHIRLER = [
     "istanbul",
     "diyarbakir",
-    "kibris-lefkosa",
-    "kibris-girne",
-    "kibris-gazimagusa"
+    "kibris-lefkosa"
 ]
 
 USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15"
 ]
 
 def eczaneleri_getir(sehir_eki):
     url = f"https://www.eczaneler.gen.tr/nobetci-{sehir_eki}"
-    headers = {"User-Agent": random.choice(USER_AGENTS)}
+    headers = {
+        "User-Agent": random.choice(USER_AGENTS),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7"
+    }
     sehir_eczaneleri = []
 
     try:
-        # Siteye bağlan ve veriyi çek
+        print(f"📡 BASTILIYOR: {url}")
         response = requests.get(url, headers=headers, timeout=15)
-        response.encoding = 'utf-8' # Türkçe karakterleri bozmaması için
+        response.encoding = 'utf-8'
+        
+        # Sitenin bize ne cevap verdiğini ekrana yazdırıyoruz (Çok Kritik!)
+        print(f"🚦 SİTE CEVAP KODU: {response.status_code}")
+        
+        if response.status_code != 200:
+            print("❌ SİTE BİZİ ENGELLEDİ (Cloudflare veya Güvenlik Duvarı)")
+            return []
+
         soup = BeautifulSoup(response.text, 'html.parser')
         
-        # Site tasarımında eczane isimleri genelde 'isim' veya 'title' class'lı div'lerde veya tablolarda yer alır.
-        # En yaygın CSS seçicilerini kullanarak verileri avlıyoruz:
-        isim_divleri = soup.find_all('span', class_='isim')
+        # En kaba kuvvet (Brute-Force) arama yöntemi:
+        # İsimlerin genellikle bulunduğu büyük başlıkları (h2, span, a) ve class'ı "isim" veya "title" olanları ara
+        isim_etiketleri = soup.find_all(class_=['isim', 'title', 'eczane-adi'])
         
-        # Eğer span olarak bulamazsa tablo içinden çekmeye çalışır (Yedekleme planı)
-        if not isim_divleri:
-            tablo_satirlari = soup.select("table.table-bordered tbody tr")
-            for satir in tablo_satirlari:
-                sutunlar = satir.find_all('td')
-                if len(sutunlar) >= 3:
-                    isim = sutunlar[0].text.strip()
-                    adres = sutunlar[1].text.strip()
-                    telefon = sutunlar[2].text.strip()
-                    
-                    sehir_adi = "Lefkoşa" if "lefkosa" in sehir_eki else sehir_eki.capitalize()
-                    
+        for etiket in isim_etiketleri:
+            isim = etiket.text.strip()
+            # Eğer isim boşsa atla
+            if not isim: continue
+                
+            # Ebeveyn kutuyu bul (kartın tamamı)
+            kart = etiket.find_parent('div', class_=['row', 'panel', 'card']) or etiket.find_parent('tr')
+            if kart:
+                adres_etiket = kart.find(class_=['adres', 'text-muted', 'address'])
+                tel_etiket = kart.find(class_=['telefon', 'tel', 'phone'])
+                
+                adres = adres_etiket.text.strip() if adres_etiket else "Adres çekilemedi"
+                telefon = tel_etiket.text.strip() if tel_etiket else "Telefon çekilemedi"
+                
+                # Sadece gerçekten isim gibi duranları ekle (en az 3 harf)
+                if len(isim) > 3:
                     sehir_eczaneleri.append({
                         "isim": isim,
-                        "adres": f"{adres} - {sehir_adi}",
+                        "adres": f"{adres} ({sehir_eki.upper()})",
                         "telefon": telefon
                     })
-            return sehir_eczaneleri
+        
+        # Eğer div'lerden bulamadıysa, klasik tablo (table) avına çık:
+        if not sehir_eczaneleri:
+            tablolar = soup.find_all("table")
+            for tablo in tablolar:
+                satirlar = tablo.find_all("tr")
+                for satir in satirlar:
+                    sutunlar = satir.find_all("td")
+                    if len(sutunlar) >= 3:
+                        sehir_eczaneleri.append({
+                            "isim": sutunlar[0].text.strip(),
+                            "adres": f"{sutunlar[1].text.strip()} ({sehir_eki.upper()})",
+                            "telefon": sutunlar[2].text.strip()
+                        })
 
-        # Eğer div sistemiyle yapılmışsa:
-        for div in soup.select('.eczane-karti, .panel, .box'):
-            try:
-                isim = div.find(['div', 'span', 'h2'], class_='isim').text.strip()
-                adres = div.find(['div', 'span'], class_='adres').text.strip()
-                telefon = div.find(['div', 'span'], class_='telefon').text.strip()
-                
-                sehir_eczaneleri.append({
-                    "isim": isim,
-                    "adres": adres,
-                    "telefon": telefon
-                })
-            except AttributeError:
-                continue
+        print(f"✅ BULUNAN ECZANE SAYISI: {len(sehir_eczaneleri)}")
 
     except Exception as e:
-        print(f"HATA: {sehir_eki} verisi çekilemedi -> {e}")
+        print(f"🚨 KRİTİK HATA: {e}")
         
     return sehir_eczaneleri
 
 def ana_motor():
     tum_eczaneler = []
-    print("🚀 Nöbetçi Cepte Ana Motoru Başlatıldı...")
+    print("🚀 Nöbetçi Cepte Teşhis Motoru Başlatıldı...\n")
     
     for sehir in SEHIRLER:
-        print(f"Hedef Taranıyor: {sehir.upper()}...")
         veriler = eczaneleri_getir(sehir)
-        tum_eczaneler.extend(veriler)
-        
-        # Anti-Ban Zırhı: Her il arasında 2-4 saniye rastgele bekle
+        if veriler:
+            tum_eczaneler.extend(veriler)
         time.sleep(random.uniform(2.0, 4.0))
         
-    # Verileri dosyaya yazma işlemi
     with open("eczaneler.json", "w", encoding="utf-8") as f:
         json.dump({"eczaneler": tum_eczaneler}, f, ensure_ascii=False, indent=4)
         
-    print(f"✅ Görev Tamamlandı! Toplam {len(tum_eczaneler)} eczane kaydedildi.")
+    print(f"\n🎯 İŞLEM BİTTİ! TOPLAM {len(tum_eczaneler)} ECZANE KAYDEDİLDİ.")
 
 if __name__ == "__main__":
     ana_motor()
