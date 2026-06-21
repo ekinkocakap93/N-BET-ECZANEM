@@ -1,24 +1,3 @@
 {
-    "eczaneler": [
-        {
-            "isim": "ADANA Örnek Eczanesi",
-            "adres": "Örnek Mah.",
-            "telefon": "0000"
-        },
-        {
-            "isim": "DIYARBAKIR Örnek Eczanesi",
-            "adres": "Örnek Mah.",
-            "telefon": "0000"
-        },
-        {
-            "isim": "ISTANBUL Örnek Eczanesi",
-            "adres": "Örnek Mah.",
-            "telefon": "0000"
-        },
-        {
-            "isim": "KKTC Örnek Eczanesi",
-            "adres": "Örnek Mah.",
-            "telefon": "0000"
-        }
-    ]
+    "eczaneler": []
 }
