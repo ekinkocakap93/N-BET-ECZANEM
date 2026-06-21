@@ -1,0 +1,34 @@
+name: Günlük Eczane Güncelleyici
+
+on:
+  schedule:
+    # Sabah 08:00 ve Akşam 18:00 nöbet değişimleri (UTC saatine göre 05:00 ve 15:00)
+    - cron: '0 5,15 * * *'
+  workflow_dispatch: # Manuel çalıştırma butonunu aktif eder
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # İşlemler için ücretsiz bir sunucu tahsis edilir
+
+    steps:
+    - name: 1. Kodları Sunucuya Kopyala
+      uses: actions/checkout@v4
+
+    - name: 2. Sunucuya Python Kur
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: 3. Gerekli Araçları Yükle
+      run: pip install requests beautifulsoup4
+
+    - name: 4. Nöbetçi Cepte Botumuzu Çalıştır
+      run: python kaziyici.py
+
+    - name: 5. Yeni Verileri GitHub'a Kaydet ve Yayınla
+      run: |
+        git config --local user.email "bot@nobetcicepte.com"
+        git config --local user.name "Nöbetçi Cepte Robotu"
+        git add eczaneler.json
+        git commit -m "Nöbetçi listesi başarıyla güncellendi [Otomatik]" || echo "Değişiklik yok"
+        git push
