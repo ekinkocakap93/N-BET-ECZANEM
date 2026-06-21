@@ -16,58 +16,49 @@ def eczaneleri_getir(sehir_eki):
 
     try:
         print(f"📡 BASTILIYOR: {url}")
-        
-        # Cloudflare'i aşmak için özel tarayıcı taklidi yapan kazıyıcıyı oluşturuyoruz
-        scraper = cloudscraper.create_scraper(browser={
-            'browser': 'chrome',
-            'platform': 'windows',
-            'desktop': True
-        })
-        
+        scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'desktop': True})
         response = scraper.get(url, timeout=20)
         response.encoding = 'utf-8'
-        
-        print(f"🚦 SİTE CEVAP KODU: {response.status_code}")
         
         if response.status_code != 200:
             print("❌ ENGEL AŞILAMADI.")
             return []
 
         soup = BeautifulSoup(response.text, 'html.parser')
-        isim_etiketleri = soup.find_all(class_=['isim', 'title', 'eczane-adi'])
         
-        for etiket in isim_etiketleri:
-            isim = etiket.text.strip()
-            if not isim: continue
+        # Sitenin kalbi olan tablo satırlarını (tr) buluyoruz
+        satirlar = soup.find_all("tr")
+        
+        for satir in satirlar:
+            sutunlar = satir.find_all("td")
+            
+            # Eczane tablosunda genelde en az 3 sütun olur: İsim, Adres, Telefon
+            if len(sutunlar) >= 3:
+                # Tablonun en üstündeki başlık ("Eczane Adı") satırını atla
+                if "Eczane Adı" in sutunlar[0].text:
+                    continue
+                    
+                # 1. SÜTUN: İSİM (İsim etiketini bul, bulamazsa düz metni al)
+                isim_span = sutunlar[0].find(class_=['isim', 'title'])
+                if isim_span:
+                    isim = isim_span.text.strip()
+                else:
+                    isim = sutunlar[0].text.strip().split('\n')[0]
+                    
+                # 2. SÜTUN: ADRES
+                adres = sutunlar[1].text.strip()
                 
-            kart = etiket.find_parent('div', class_=['row', 'panel', 'card']) or etiket.find_parent('tr')
-            if kart:
-                adres_etiket = kart.find(class_=['adres', 'text-muted', 'address'])
-                tel_etiket = kart.find(class_=['telefon', 'tel', 'phone'])
+                # 3. SÜTUN: TELEFON
+                telefon = sutunlar[2].text.strip()
                 
-                adres = adres_etiket.text.strip() if adres_etiket else "Adres çekilemedi"
-                telefon = tel_etiket.text.strip() if tel_etiket else "Telefon çekilemedi"
-                
-                if len(isim) > 3:
+                # Sadece gerçekçi verileri listeye ekle
+                if len(isim) > 2:
                     sehir_eczaneleri.append({
                         "isim": isim,
                         "adres": f"{adres} ({sehir_eki.upper()})",
                         "telefon": telefon
                     })
         
-        if not sehir_eczaneleri:
-            tablolar = soup.find_all("table")
-            for tablo in tablolar:
-                satirlar = tablo.find_all("tr")
-                for satir in satirlar:
-                    sutunlar = satir.find_all("td")
-                    if len(sutunlar) >= 3:
-                        sehir_eczaneleri.append({
-                            "isim": sutunlar[0].text.strip(),
-                            "adres": f"{sutunlar[1].text.strip()} ({sehir_eki.upper()})",
-                            "telefon": sutunlar[2].text.strip()
-                        })
-
         print(f"✅ BULUNAN ECZANE SAYISI: {len(sehir_eczaneleri)}")
 
     except Exception as e:
@@ -77,13 +68,13 @@ def eczaneleri_getir(sehir_eki):
 
 def ana_motor():
     tum_eczaneler = []
-    print("🚀 Nöbetçi Cepte V2 Motoru Başlatıldı...\n")
+    print("🚀 Nöbetçi Cepte V3 (Keskin Nişancı) Motoru Başlatıldı...\n")
     
     for sehir in SEHIRLER:
         veriler = eczaneleri_getir(sehir)
         if veriler:
             tum_eczaneler.extend(veriler)
-        time.sleep(random.uniform(3.0, 6.0))
+        time.sleep(random.uniform(3.0, 5.0))
         
     with open("eczaneler.json", "w", encoding="utf-8") as f:
         json.dump({"eczaneler": tum_eczaneler}, f, ensure_ascii=False, indent=4)
