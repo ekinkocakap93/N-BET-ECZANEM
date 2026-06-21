@@ -22,41 +22,46 @@ def eczaneleri_getir(sehir_eki):
 
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        # 🕵️ DEDEKTİF MODU: Sayfanın başlığını yazdırarak Cloudflare tuzağına düşüp düşmediğimizi anlıyoruz
-        sayfa_basligi = soup.title.text.strip() if soup.title else "Başlık Yok"
-        print(f"🔍 SAYFA BAŞLIĞI: {sayfa_basligi}")
-
-        if "Just a moment" in sayfa_basligi or "Cloudflare" in sayfa_basligi:
-            print("❌ DİKKAT: SİTE BİZE SAHTE 200 KODU VERİP ROBOT DOĞRULAMASI SUNDU!")
-            return []
-
-        # 🕸️ GENİŞ AĞ MODU: Hem tabloları hem de div kartlarını aynı anda esnekçe tarar
+        # Sadece eczane isimlerini bularak başla
         isim_etiketleri = soup.find_all(class_=['isim', 'title', 'eczane-adi'])
 
         for etiket in isim_etiketleri:
             isim = etiket.text.strip()
             if len(isim) < 3: continue
 
-            # Eczanenin içinde bulunduğu ana kutuyu bul
-            kart = etiket.find_parent(['tr', 'div', 'li'], class_=['row', 'panel', 'card']) or etiket.find_parent('tr')
+            # Eczanenin bilgilerini kapsayan en dış kutuyu (container) bul
+            kart = etiket.find_parent(['div', 'li', 'tr'], class_=['row', 'panel', 'card', 'eczane-karti']) or etiket.find_parent('tr')
 
             adres = "Adres bulunamadı"
             telefon = "Telefon bulunamadı"
 
             if kart:
-                sutunlar = kart.find_all("td")
-                if len(sutunlar) >= 3:
-                    # Tablo yapısındaysa
-                    adres = sutunlar[1].text.strip()
-                    telefon = sutunlar[2].text.strip()
-                else:
-                    # Kutu (div) yapısındaysa
-                    adres_etiket = kart.find(class_=['adres', 'text-muted', 'address'])
-                    tel_etiket = kart.find(class_=['telefon', 'tel', 'phone'])
-                    if adres_etiket: adres = adres_etiket.text.strip()
-                    if tel_etiket: telefon = tel_etiket.text.strip()
+                # 🧠 METİN ANALİZ MANTIĞI: Kutunun içindeki tüm metinleri sırayla al
+                tum_metinler = list(kart.stripped_strings)
+                
+                # 1. Telefonu Bul (İçinde 10 ile 15 arası rakam olan metin)
+                for metin in reversed(tum_metinler):
+                    rakam_sayisi = sum(c.isdigit() for c in metin)
+                    if 10 <= rakam_sayisi <= 15:
+                        telefon = metin
+                        break
+                
+                # 2. Adresi Bul (İsim, Telefon ve Butonlar hariç kalan metinleri birleştir)
+                adres_parcalari = []
+                yasakli_kelimeler = ['yol tarifi', 'harita', 'konum', 'ara', 'detay', 'açık', 'kapalı', 'nöbetçi']
+                
+                for metin in tum_metinler:
+                    if metin == isim or metin == telefon: 
+                        continue
+                    if metin.lower() in yasakli_kelimeler: 
+                        continue
+                    # Sadece tek harflik gereksiz işaretleri atla, gerisini adrese ekle
+                    if len(metin) > 3: 
+                        adres_parcalari.append(metin)
+                
+                if adres_parcalari:
+                    adres = " ".join(adres_parcalari)
 
-            # Temizlenmiş veriyi listeye ekle
             sehir_eczaneleri.append({
                 "isim": isim,
                 "adres": f"{adres} ({sehir_eki.upper()})",
@@ -72,7 +77,7 @@ def eczaneleri_getir(sehir_eki):
 
 def ana_motor():
     tum_eczaneler = []
-    print("🚀 Nöbetçi Cepte V4 (Dedektif + Geniş Ağ) Motoru Başlatıldı...\n")
+    print("🚀 Nöbetçi Cepte V5 (Metin Analizi) Motoru Başlatıldı...\n")
 
     for sehir in SEHIRLER:
         veriler = eczaneleri_getir(sehir)
