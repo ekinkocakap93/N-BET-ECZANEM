@@ -4,7 +4,7 @@ import random
 import cloudscraper
 from bs4 import BeautifulSoup
 import re
-import urllib.parse # Harita arama linklerini düzgün bir web formatına (URL) çevirmek için
+import urllib.parse
 
 SEHIRLER = [
     "istanbul",
@@ -23,7 +23,7 @@ def eczaneleri_getir(sehir_eki):
         response.encoding = 'utf-8'
 
         soup = BeautifulSoup(response.text, 'html.parser')
-        isim_etiketleri = soup.find_all(['span', 'div', 'a', 'h2'], class_=['isim', 'eczane-adi', 'title', 'font-weight-bold'])
+        isim_etiketleri = soup.find_all(['span', 'div', 'a', 'h2'], class_=['isim', 'eczane-adi', 'title'])
 
         for etiket in isim_etiketleri:
             isim = etiket.text.strip()
@@ -38,7 +38,7 @@ def eczaneleri_getir(sehir_eki):
             harita_linki = ""
 
             if kart:
-                # 📞 TELEFON AVCISI (Çok daha esnek: Parantez, boşluk veya tire olan 10-11 haneli her şeyi yakalar)
+                # 📞 TELEFON
                 tel_link = kart.find('a', href=re.compile(r'tel:'))
                 if tel_link:
                     telefon = tel_link.get('href').replace('tel:', '').strip()
@@ -48,7 +48,7 @@ def eczaneleri_getir(sehir_eki):
                     if tel_match:
                         telefon = tel_match.group(0).strip()
 
-                # 📍 ADRES AVCISI
+                # 📍 ADRES
                 tdler = kart.find_all('td')
                 if tdler and len(tdler) >= 3:
                     adres = tdler[1].text.strip()
@@ -61,16 +61,24 @@ def eczaneleri_getir(sehir_eki):
                     if olasi_adresler:
                         adres = max(olasi_adresler, key=len)
 
-                # 🗺️ HARİTA LİNKİ ÜRETİCİSİ (Koordinat yerine akıllı arama)
+                # 🗺️ HARİTA
                 map_link = kart.find('a', href=re.compile(r'maps\.google|google\.com/maps'))
                 if map_link:
                     harita_linki = map_link.get('href')
                 else:
-                    # Sitede hazır link yoksa, eczane adı ve şehrini Google'da aratan bir link oluşturuyoruz
                     arama_metni = f"{isim} {sehir_eki.upper().replace('KIBRIS-', '')}"
                     harita_linki = f"https://www.google.com/maps/search/?api=1&query={urllib.parse.quote(arama_metni)}"
 
-            # Çiftleyen eczaneleri filtrele
+            # 🛑 HAYALET KART FİLTRELERİ 🛑
+            # 1. İsmin içinde "eczane" geçmiyorsa ve tek kelimeyse (örn: Arnavutköy) bunu atla
+            if "eczane" not in isim.lower() and len(isim.split()) == 1:
+                continue
+            
+            # 2. Aynı telefon numarasına sahip başka bir kart daha önce eklendiyse (ve telefon boş değilse) bunu atla
+            if telefon != "Telefon bulunamadı" and any(e['telefon'] == telefon for e in sehir_eczaneleri):
+                continue
+                
+            # 3. İsim birebir aynıysa atla
             if any(e['isim'] == isim for e in sehir_eczaneleri):
                 continue
 
@@ -78,7 +86,7 @@ def eczaneleri_getir(sehir_eki):
                 "isim": isim,
                 "adres": f"{adres} ({sehir_eki.upper()})",
                 "telefon": telefon,
-                "harita_linki": harita_linki # JSON verisine yeni bir özellik ekledik!
+                "harita_linki": harita_linki
             })
 
         print(f"✅ BULUNAN ECZANE SAYISI: {len(sehir_eczaneleri)}")
@@ -90,7 +98,7 @@ def eczaneleri_getir(sehir_eki):
 
 def ana_motor():
     tum_eczaneler = []
-    print("🚀 Nöbetçi Cepte V7 (Akıllı Harita & Telefon) Motoru Başlatıldı...\n")
+    print("🚀 Nöbetçi Cepte V8 (Anti-Hayalet) Motoru Başlatıldı...\n")
 
     for sehir in SEHIRLER:
         veriler = eczaneleri_getir(sehir)
