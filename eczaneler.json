@@ -1,30 +1,2464 @@
 {
-    "son_guncelleme": "2026-06-23 08:28:21",
-    "hedef_kapsam": "Tüm Türkiye ve KKTC",
     "eczaneler": [
         {
-            "koordinat_var_mi": true,
-            "koordinatlar": {
-                "lat": 41.0082,
-                "lng": 28.9784
-            },
-            "detay": "İSTANBUL MERKEZ ECZANESİ - Tel: 0212 111 22 33 - Kadıköy / İstanbul"
+            "isim": "Burgazada Eczanesi",
+            "adres": "Burgazadası Mahallesi, Çınarlık Sokak No:3 Burgazada / Adalar / İstanbul (ISTANBUL)",
+            "telefon": "(216) 381-21-12",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Burgazada%20Eczanesi%20ISTANBUL"
         },
         {
-            "koordinat_var_mi": true,
-            "koordinatlar": {
-                "lat": 37.9144,
-                "lng": 40.2306
-            },
-            "detay": "DİYARBAKIR UMUT ECZANESİ - Tel: 0412 224 55 66 - Yenişehir Mah. Ekinciler Caddesi No:12 Yenişehir / Diyarbakır"
+            "isim": "Yeni Eczane",
+            "adres": "Nizam Mahallesi, Çınar Caddesi No:7/B Büyükada / Adalar / İstanbul (ISTANBUL)",
+            "telefon": "(216) 382-38-00",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Yeni%20Eczane%20ISTANBUL"
         },
         {
-            "koordinat_var_mi": true,
-            "koordinatlar": {
-                "lat": 35.2104,
-                "lng": 33.3262
-            },
-            "detay": "LEFKOŞA ŞİFA ECZANESİ - Tel: 0392 228 33 44 - Bedrettin Demirel Caddesi No:88 Gönyeli / Lefkoşa"
+            "isim": "Heybeliada Eczanesi",
+            "adres": "Heybeliada Mahallesi, Ayyıldız Caddesi No:28 Heybeliada / Adalar / İstanbul (ISTANBUL)",
+            "telefon": "(216) 351-84-15",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Heybeliada%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Deniz Eczanesi",
+            "adres": "Kınalıada Mahallesi, İskele Sokak No:3/B Kınalıada Adalar / İstanbul (ISTANBUL)",
+            "telefon": "(216) 381-51-81",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Deniz%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Can Eczanesi",
+            "adres": "Hadımköy Mahallesi, Çarşamba Sokak No:6-8A Arnavutköy / İstanbul (ISTANBUL)",
+            "telefon": "(212) 634-04-78",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Can%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Bizim Eczanesi",
+            "adres": "Anadolu Mahallesi, Mücevher Sokak No:2/A Arnavutköy / İstanbul (ISTANBUL)",
+            "telefon": "(212) 597-99-55",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Bizim%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Ezgi Eczanesi",
+            "adres": "Şef Döner, Elbistan Elektrik ve Buluş AVM karşısı, Genç Kırtasiye yanı (ISTANBUL)",
+            "telefon": "(212) 597-90-24",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ezgi%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Doğan Eczanesi",
+            "adres": "Paladium AVM aşağısı, Eser Balıkçısının iki sokak üstü, Mersinli Ciğerci Apo ve 32. Noter arası (ISTANBUL)",
+            "telefon": "(216) 315-64-48",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Do%C4%9Fan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Bengisu Eczanesi",
+            "adres": "İçerenköy Mahallesi, Yeşilvadi Sokak No:14 İçerenköy / Ataşehir / İstanbul (ISTANBUL)",
+            "telefon": "(216) 469-06-94",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Bengisu%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Furkan Eczanesi",
+            "adres": "Kayışdağı Mahallesi, Uslu Caddesi No:127-1/B Ataşehir / İstanbul (ISTANBUL)",
+            "telefon": "(216) 661-69-49",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Furkan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Nar Eczanesi",
+            "adres": "Küçükbakkalköy Mahallesi, Kayışdağı Caddesi, Atayol Plaza No:45 Ataşehir / İstanbul (ISTANBUL)",
+            "telefon": "(216) 576-15-42",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Nar%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Acar Eczanesi",
+            "adres": "Cihangir Mahallesi, Kelebek Sokak No:8/B Avcılar / İstanbul (ISTANBUL)",
+            "telefon": "(212) 422-62-30",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Acar%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Gül Eczanesi",
+            "adres": "Firuzköy Mahallesi, Hasan Önal Caddesi, No:54 Firuzköy Avcılar / İstanbul (ISTANBUL)",
+            "telefon": "(212) 690-82-07",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%BCl%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Merkez Şifa Eczanesi",
+            "adres": "Çınar Mahallesi, 842.Sokak No:12 Bağcılar / İstanbul (ISTANBUL)",
+            "telefon": "(212) 634-34-10",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Merkez%20%C5%9Eifa%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Bellis Eczanesi",
+            "adres": "Güneşli Mahallesi, Cumhuriyet Caddesi, No:38/A Güneşli Bağcılar / İstanbul (ISTANBUL)",
+            "telefon": "(212) 651-56-15",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Bellis%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Efe Hayat Eczanesi",
+            "adres": "Yeni Mahalle, Bağcılar Asfaltı Caddesi No:104/A / İstanbul (ISTANBUL)",
+            "telefon": "(536) 296-12-32",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Efe%20Hayat%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Şenkul Eczanesi",
+            "adres": "Yıldıztepe Mahallesi, Şehit Teğmen Hasan Hüseyin Aksoy Caddesi No:72/C Bağcılar / İstanbul (ISTANBUL)",
+            "telefon": "(552) 315-57-38",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C5%9Eenkul%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Çiğdem Eczanesi",
+            "adres": "Kocasinan Merkez Mahallesi, Mahmutbey Caddesi No:278/B Bahçelievler / İstanbul (ISTANBUL)",
+            "telefon": "(212) 656-45-60",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%87i%C4%9Fdem%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Mahmutoğlu Eczanesi",
+            "adres": "Şirinevler PTT ve Kayalar AVM yakını, Şirinevler 3 Nolu Aile Sağlığı Merkezi karşısı (ISTANBUL)",
+            "telefon": "(212) 432-47-12",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Mahmuto%C4%9Flu%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Saray Eczanesi",
+            "adres": "Adnan Kahveci Bulvarı UEFA Anıtından Sarıyer Börekçisinin yanından içeriye girince 150 metre ileride (ISTANBUL)",
+            "telefon": "(531) 105-57-87",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Saray%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Özhan Eczanesi",
+            "adres": "Zafer Mahallesi, Ahmet Yesevi Caddesi No:81/B Bahçelievler / İstanbul (ISTANBUL)",
+            "telefon": "(212) 653-55-65",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%96zhan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Florya Eczanesi",
+            "adres": "Şenlikköy Mahallesi, Eceler Sokak No:15 Florya / Bakırköy / İstanbul (ISTANBUL)",
+            "telefon": "(212) 573-25-41",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Florya%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Filiz Eczanesi",
+            "adres": "Kartaltepe Mahallesi, Filiz Sokak No:47/A Kartaltepe / Bakırköy / İstanbul (ISTANBUL)",
+            "telefon": "(212) 466-36-35",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Filiz%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Marmara Forum Eczanesi",
+            "adres": "Osmaniye Mahallesi, Çoban Çeşme Sokak No:3 Marmara Forum AVM S-Blok Zemin Kat No:025/B Osmaniye Bakırköy / İstanbul (ISTANBUL)",
+            "telefon": "(212) 466-64-24",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Marmara%20Forum%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Emine Eczanesi",
+            "adres": "Turizm Taksi karşısı, Eski Şevketiye Mahallesi Yeni Migros ve Starbucks karşısı (ISTANBUL)",
+            "telefon": "(212) 662-53-67",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Emine%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Çam Eczanesi",
+            "adres": "Başakşehir Mahallesi, Mehmet Akif Ersoy Caddesi, Mavera Başakşehir Sitesi A3 Blok No:18H-12 Başakşehir / İstanbul (ISTANBUL)",
+            "telefon": "(212) 890-20-08",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%87am%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Muhammed Eczanesi",
+            "adres": "Şahintepe Mahallesi, Eski İstanbul Caddesi No:114/A Başakşehir / İstanbul (ISTANBUL)",
+            "telefon": "(212) 686-00-01",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Muhammed%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Şamlar Eczanesi",
+            "adres": "Kayabaşı Mahallesi, Adnan Menderes Bulvarı, Park Mavera-1 A3 Blok No:10CR/61 Başakşehir / İstanbul (ISTANBUL)",
+            "telefon": "(212) 924-81-76",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C5%9Eamlar%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Esra Eczanesi",
+            "adres": "Muratpaşa Mahallesi, Tuna Caddesi No:60/E Bayrampaşa / İstanbul (ISTANBUL)",
+            "telefon": "(212) 576-79-27",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Esra%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Bengi Eczanesi",
+            "adres": "Akaretler Migros karşısı ve Sinanpaşa Aile Sağlığı Merkezi yanı, Sinanpaşa Köprü Sokak (ISTANBUL)",
+            "telefon": "(212) 236-76-43",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Bengi%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Levent Çarşı Eczanesi",
+            "adres": "Levent Mahallesi, Çarşı Caddesi, No:11/A Levent Beşiktaş / İstanbul (ISTANBUL)",
+            "telefon": "(212) 324-25-00",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Levent%20%C3%87ar%C5%9F%C4%B1%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Ortaköy Eczanesi",
+            "adres": "Ortaköy Mahallesi, Dereboyu Caddesi No:20/A Ortaköy Beşiktaş / İstanbul (ISTANBUL)",
+            "telefon": "(212) 261-61-36",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ortak%C3%B6y%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Buse Eczanesi",
+            "adres": "Rüzgarlıbahçe Mahallesi, Ferit İnal Caddesi No:35/B Beykoz / İstanbul (ISTANBUL)",
+            "telefon": "(216) 680-06-58",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Buse%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Kardelen Eczanesi",
+            "adres": "Paşabahçe Mahallesi, Karagözsırtı Caddesi, No:2/A Paşabahçe Beykoz / İstanbul (ISTANBUL)",
+            "telefon": "(216) 413-69-24",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Kardelen%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Park Eczanesi",
+            "adres": "Adnan Kahveci Mahallesi, Yavuz Sultan Selim Bulvarı No:17/A/12 Gürpınar Beylikdüzü / İstanbul (ISTANBUL)",
+            "telefon": "(212) 855-75-45",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Park%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Selçuk Eczanesi",
+            "adres": "Yakuplu Mahallesi, 67.Sokak No:4 Yakuplu Beylikdüzü / İstanbul (ISTANBUL)",
+            "telefon": "(212) 876-69-61",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Sel%C3%A7uk%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Yükseloğlu Eczanesi",
+            "adres": "Marmara Mahallesi, Hürriyet Bulvarı No:132 A-Blok D:8 Yakuplu Beylikdüzü / İstanbul (ISTANBUL)",
+            "telefon": "(212) 823-30-71",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Y%C3%BCkselo%C4%9Flu%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Burç Eczanesi",
+            "adres": "Piripaşa Mahallesi, Şaban Deresi Sokak No:11/A Hasköy / Beyoğlu / İstanbul (ISTANBUL)",
+            "telefon": "(212) 369-60-33",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Bur%C3%A7%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Toros Eczanesi",
+            "adres": "Kaptanpaşa Mahallesi, Kasımpaşa Zincirlikuyu Caddesi, No:115/B Kasımpaşa Beyoğlu / İstanbul (ISTANBUL)",
+            "telefon": "(212) 254-63-24",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Toros%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "İstiklal Üstün Eczanesi",
+            "adres": "Şehit Muhtar Mahallesi, Zambak Sokak No:11/A Beyoğlu / İstanbul (ISTANBUL)",
+            "telefon": "(551) 488-46-06",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C4%B0stiklal%20%C3%9Cst%C3%BCn%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Göl Eczanesi",
+            "adres": "Çarşı girişi, Eski Kaymakamlık karşısı, Merkez Aile Sağlığı Merkezi Sağ çaprazı (ISTANBUL)",
+            "telefon": "(540) 883-72-76",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%B6l%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Harika Eczanesi",
+            "adres": "Mimaroba Mahallesi, Mustafa Kemal Bulvarı No:14/C Büyükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(542) 675-17-18",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Harika%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Tepecik Eczanesi",
+            "adres": "Hürriyet Mahallesi, İstiklal Caddesi No:18/A Tepecik / Büyükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(212) 861-25-66",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Tepecik%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Emel Eczanesi",
+            "adres": "Ferhatpaşa Mahallesi, Atatürk Caddesi, No:47/2 Çatalca / İstanbul (ISTANBUL)",
+            "telefon": "(212) 789-27-71",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Emel%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Çekmeköy Su Eczanesi",
+            "adres": "Mimar Sinan Mahallesi, Ulubatlı Hasan Caddesi No:107/A Çekmeköy / İstanbul (ISTANBUL)",
+            "telefon": "(216) 642-10-30",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%87ekmek%C3%B6y%20Su%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Sağlık Eczanesi",
+            "adres": "Aydınlar Mahallesi, Fatih Sultan Mehmet Caddesi No:114-116/B Çekmeköy / İstanbul (ISTANBUL)",
+            "telefon": "(216) 909-29-84",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Sa%C4%9Fl%C4%B1k%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Melek Eczanesi",
+            "adres": "Turgut Reis Mahallesi, Cengiz Topel Caddesi No:32/B Esenler / İstanbul (ISTANBUL)",
+            "telefon": "(212) 430-10-54",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Melek%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Meydan Eczanesi",
+            "adres": "Nine Hatun Mahallesi, İnönü Caddesi No:19/C Esenler / İstanbul (ISTANBUL)",
+            "telefon": "(212) 568-84-46",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Meydan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Atışalanı Meydan Eczanesi",
+            "adres": "Atışalanı Mahallesi, Taşocağı Caddesi, No:28/1 Atışalanı Esenler / İstanbul (ISTANBUL)",
+            "telefon": "(212) 429-56-56",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=At%C4%B1%C5%9Falan%C4%B1%20Meydan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Doruk Eczanesi",
+            "adres": "Süleymaniye Mahallesi, Ispartakule Caddesi No:194/1 Esenyurt / İstanbul (ISTANBUL)",
+            "telefon": "(505) 430-06-01",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Doruk%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Piri Reis Eczanesi",
+            "adres": "Esenyurt SGK Binası karşısı, Perşembe Sosyete Pazarı yanı, 30 Nolu Aile Sağlığı Merkezi karşısı (ISTANBUL)",
+            "telefon": "(212) 853-54-53",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Piri%20Reis%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Ziynet Şule Eczanesi",
+            "adres": "Bağlarçeşme Kapalı Havuzunun olduğu caddede 18 Nolu Aile Sağlığı Merkezi karşısı, Belma Barut İlkokulu arkası (ISTANBUL)",
+            "telefon": "(212) 689-06-36",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ziynet%20%C5%9Eule%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Tarçın Eczanesi",
+            "adres": "Güzelyurt Mahallesi, Ertuğrul Gazi Caddesi No:4/B Güzelyurt / Esenyurt / İstanbul (ISTANBUL)",
+            "telefon": "(530) 503-45-50",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Tar%C3%A7%C4%B1n%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Esra Öztürk Eczanesi",
+            "adres": "Namık Kemal Mahallesi, Doğan Araslı Bulvarı No:37/B Esenyurt / İstanbul (ISTANBUL)",
+            "telefon": "(212) 690-73-99",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Esra%20%C3%96zt%C3%BCrk%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Kent Eczanesi",
+            "adres": "Orhan Gazi Mahallesi, 1659.Sokak No:23/A Sanayi / Esenyurt / İstanbul (ISTANBUL)",
+            "telefon": "(212) 596-55-53",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Kent%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "İstanbul Eczanesi",
+            "adres": "Eyüp Merkez Mahallesi, Silahtarağa Caddesi No:59 Eyüp / İstanbul (ISTANBUL)",
+            "telefon": "(212) 563-99-68",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C4%B0stanbul%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Eyüppark Eczanesi",
+            "adres": "Akşemsettin Mahallesi, Plevne Sokak No:2/K Çırçır Eyüp / İstanbul (ISTANBUL)",
+            "telefon": "(850) 532-77-23",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ey%C3%BCppark%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Aven Eczanesi",
+            "adres": "Mithatpaşa Mahallesi, Bahçeköy Caddesi No:5/3 Kemerburgaz / Eyüp / İstanbul (ISTANBUL)",
+            "telefon": "(212) 360-28-03",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Aven%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Haseki Yusufpaşa Eczanesi",
+            "adres": "Haseki Sultan Mahallesi, Haseki Caddesi No:20/A Fatih / İstanbul (ISTANBUL)",
+            "telefon": "(212) 530-45-89",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Haseki%20Yusufpa%C5%9Fa%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Geçer Eczanesi",
+            "adres": "Seyit Ömer Mahallesi, Silivrikapı Caddesi No:88/A Fatih / İstanbul (ISTANBUL)",
+            "telefon": "(505) 740-87-95",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ge%C3%A7er%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Demir Eczanesi",
+            "adres": "Hobyar Mahallesi, Hamidiye Caddesi No:3/C Sirkeci Fatih / İstanbul (ISTANBUL)",
+            "telefon": "(212) 624-40-60",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Demir%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Öztatlı Eczanesi",
+            "adres": "Ali Kuşçu Mahallesi, Hulusi Noyan Sokak No:4/A Fatih / İstanbul (ISTANBUL)",
+            "telefon": "(212) 507-56-56",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%96ztatl%C4%B1%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Ecem Eczanesi",
+            "adres": "Cevatpaşa Mahallesi, Eski Edirne Asfaltı Sokak No:377/A Gaziosmanpaşa / İstanbul (ISTANBUL)",
+            "telefon": "(212) 479-32-58",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ecem%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Büşra Eczanesi",
+            "adres": "Kemal Şeker Bulvarı üzeri, Avrasya Hastanesi Acil karşısı, Küçükköy Merkezden inerken Sağda, 23 Nisan Parkı yanı (ISTANBUL)",
+            "telefon": "(212) 537-72-73",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=B%C3%BC%C5%9Fra%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Çınar Eczanesi",
+            "adres": "Yeni Mahallesi, Paşaçayırı Caddesi No:78-80/D Gaziosmanpaşa / İstanbul (ISTANBUL)",
+            "telefon": "(212) 477-83-84",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%87%C4%B1nar%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Haşhaşlar Eczanesi",
+            "adres": "Gaziosmanpaşa Meydan-Özel İstanbul Meva Hastanesi Acil karşısı, Cumhuriyet Meydanı İETT Durağı çaprazı (ISTANBUL)",
+            "telefon": "(212) 615-20-24",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ha%C5%9Fha%C5%9Flar%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Onur Yıldız Eczanesi",
+            "adres": "Haznedar Mahallesi, Bağcılar Caddesi No:98/B Güngören / İstanbul (ISTANBUL)",
+            "telefon": "(212) 539-03-45",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Onur%20Y%C4%B1ld%C4%B1z%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Tozkoparan Eczanesi",
+            "adres": "Mehmet Nesih Özmen Mahallesi, Zeki Sokak No:28/A Güngören / İstanbul (ISTANBUL)",
+            "telefon": "(212) 481-73-25",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Tozkoparan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Nihan Er Eczanesi",
+            "adres": "Evinpark Rezidansın karşısı, Fikirtepe Metrobüs Durağından Mandıra Caddesi yönünde Sağdaki ilk bina (ISTANBUL)",
+            "telefon": "(216) 551-00-06",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Nihan%20Er%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Kelebek Eczanesi",
+            "adres": "19 Mayıs Mahallesi, Şemsettin Günaltay Caddesi No:172/C Kadıköy / İstanbul (ISTANBUL)",
+            "telefon": "(216) 504-80-90",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Kelebek%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Furkan Dağdelen Eczanesi",
+            "adres": "Zühtüpaşa Mahallesi, Recep Peker Caddesi No:34/1-A Kadıköy / İstanbul (ISTANBUL)",
+            "telefon": "(216) 550-50-56",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Furkan%20Da%C4%9Fdelen%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Alfa Eczanesi",
+            "adres": "Koşuyolu Mahallesi, Koşuyolu Caddesi No:2/A Kadıköy / İstanbul (ISTANBUL)",
+            "telefon": "(216) 339-43-39",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Alfa%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Mungan Eczanesi",
+            "adres": "Kozyatağı Mahallesi, Kaya Sultan Sokak No:21/B Kozyatağı / Kadıköy / İstanbul (ISTANBUL)",
+            "telefon": "(216) 939-11-37",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Mungan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Şeniz Eczanesi",
+            "adres": "Gözcübaba'daki Tarihi Safranbolu Fırınından Göztepe Köprüsüne doğru inerken 50 metre aşağıda Solda (ISTANBUL)",
+            "telefon": "(216) 566-10-06",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C5%9Eeniz%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Gülhane Eczanesi",
+            "adres": "Osmanağa Mahallesi, Söğütlüçeşme Caddesi No:21/B Kadıköy / İstanbul (ISTANBUL)",
+            "telefon": "(216) 338-12-97",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%BClhane%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Ayaz Eczanesi",
+            "adres": "Telsizler Mahallesi, Boğazkale Sokak No:1/A Gültepe / Kağıthane / İstanbul (ISTANBUL)",
+            "telefon": "(212) 234-51-41",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ayaz%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Neşem Eczanesi",
+            "adres": "Gürsel Mahallesi, Şevketpaşa Caddesi No:24/B Kağıthane / İstanbul (ISTANBUL)",
+            "telefon": "(212) 221-60-00",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ne%C5%9Fem%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Özsahra Eczanesi",
+            "adres": "Sultan Selim Mahallesi, Şahinler Caddesi No:6/C Kağıthane / İstanbul (ISTANBUL)",
+            "telefon": "(212) 281-68-82",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%96zsahra%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Gülnihal Eczanesi",
+            "adres": "Petroliş Mahallesi, Kızılay Bulvarı No:25/A Atalar Kartal / İstanbul (ISTANBUL)",
+            "telefon": "(216) 374-17-15",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%BClnihal%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Doğu Eczanesi",
+            "adres": "Orhantepe Mahallesi, Çınar Caddesi No:55 Orhantepe Kartal / İstanbul (ISTANBUL)",
+            "telefon": "(216) 371-03-50",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Do%C4%9Fu%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Ada Eczanesi",
+            "adres": "Ana Cadde üzeri, Hüdayi (Yeşil) Camii ve Şok Market karşısı, Lütfi Kırdar EAH Eğitim Aile Sağlığı Merkezi aşağısı (ISTANBUL)",
+            "telefon": "(216) 377-11-22",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ada%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Zerrin Eczanesi",
+            "adres": "Yakacık Yeni Mahallesi, Samandıra Caddesi No:21/B Kartal / İstanbul (ISTANBUL)",
+            "telefon": "(216) 377-25-52",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Zerrin%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Caddepark Eczanesi",
+            "adres": "Cennet Mahallesi, Yahya Kemal Beyatlı Caddesi No:25-27/A Küçükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(212) 540-20-10",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Caddepark%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Deva Eczanesi",
+            "adres": "Halkalı Merkez Mahallesi, Mahmutbey Caddesi No:15 Küçükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(212) 471-26-26",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Deva%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Müge Eczanesi",
+            "adres": "Atatürk Mahallesi, İkitelli Caddesi No:162 İkitelli Küçükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(212) 548-23-60",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=M%C3%BCge%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Fatoş Eczanesi",
+            "adres": "Söğütlüçeşme Mahallesi, Camialtı Sokak No:32 Sefaköy / Küçükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(533) 564-43-53",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Fato%C5%9F%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Merkez Eczanesi",
+            "adres": "Tevfik Bey Mahallesi, Merkez Caddesi No:27/C Sefaköy Küçükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(212) 579-01-10",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Merkez%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Bağlar Eczanesi",
+            "adres": "Sefaköy Kapalı Yüzme Havuzunun 200 metre aşağısı, Makbul Kuruyemişin karşısı (ISTANBUL)",
+            "telefon": "(552) 698-56-36",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ba%C4%9Flar%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Cemre Eczanesi",
+            "adres": "Aydınevler Mahallesi, Selçukbey Caddesi No:32/A Maltepe / İstanbul (ISTANBUL)",
+            "telefon": "(216) 629-66-99",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Cemre%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Teoman Eczanesi",
+            "adres": "Zümrütevler Mahallesi, Nil Caddesi No:47/1-B Maltepe / İstanbul (ISTANBUL)",
+            "telefon": "(216) 427-80-00",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Teoman%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Buket Eczanesi",
+            "adres": "Batı Mahallesi, Dr.Orhan Maltepe Caddesi No:10/A Çarşı Pendik / İstanbul (ISTANBUL)",
+            "telefon": "(216) 354-07-76",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Buket%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Esenyalı Merkez Eczanesi",
+            "adres": "Fatih Mahallesi, İmamı Azam Caddesi No:29/A Esenyalı / Pendik / İstanbul (ISTANBUL)",
+            "telefon": "(545) 133-22-80",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Esenyal%C4%B1%20Merkez%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Gülden Eczanesi",
+            "adres": "Fevzi Çakmak Mahallesi, Eynesil Sokak No:1/A Üst Kaynarca Pendik / İstanbul (ISTANBUL)",
+            "telefon": "(216) 596-27-69",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%BClden%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Sedat Eczanesi",
+            "adres": "Sanayi Mahallesi, Çetin Sokak No:8/B Kurtköy / Pendik / İstanbul (ISTANBUL)",
+            "telefon": "(216) 595-00-06",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Sedat%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Enes Eczanesi",
+            "adres": "Akpınar Mahallesi, Malkoçoğlu Caddesi No:137/A Sancaktepe / İstanbul (ISTANBUL)",
+            "telefon": "(530) 399-12-89",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Enes%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Sarıgazi Can Eczanesi",
+            "adres": "Kemal Türkler Mahallesi, Yazlık Sokak No:21 Sarıgazi / Sancaktepe / İstanbul (ISTANBUL)",
+            "telefon": "(216) 621-96-76",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Sar%C4%B1gazi%20Can%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Cemal Eczanesi",
+            "adres": "Emek Mahallesi, Namık Kemal Caddesi, No:113/E Sarıgazi Sancaktepe / İstanbul (ISTANBUL)",
+            "telefon": "(537) 584-79-92",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Cemal%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Büyükdere Elif Eczanesi",
+            "adres": "Büyükdere Mahallesi, Çayırbaşı Caddesi No:98/A Büyükdere Sarıyer / İstanbul (ISTANBUL)",
+            "telefon": "(212) 271-67-74",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=B%C3%BCy%C3%BCkdere%20Elif%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Tan Eczanesi",
+            "adres": "İTÜ Ayazağa Metro İstasyonu Maslak Plazalar çıkışı, Windowist Tower Plaza altı (ISTANBUL)",
+            "telefon": "(212) 510-33-34",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Tan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Ufuk Eczanesi",
+            "adres": "Çavuş Mahallesi, Üsküdar Caddesi No:192/A Şile / İstanbul (ISTANBUL)",
+            "telefon": "(216) 704-20-88",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ufuk%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Yeşilçay Eczanesi",
+            "adres": "Ağva Merkez Mahallesi, Yakuplu Caddesi No:9/C Şile / İstanbul (ISTANBUL)",
+            "telefon": "(216) 721-89-00",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ye%C5%9Fil%C3%A7ay%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Erciyes Eczanesi",
+            "adres": "Alibey Mahallesi, Başkomutan Caddesi No:74/C Silivri / İstanbul (ISTANBUL)",
+            "telefon": "(212) 727-30-72",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Erciyes%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Tuğba Eczanesi",
+            "adres": "Selimpaşa Merkez Mahallesi, 202.Cadde No:23 Silivri / İstanbul (ISTANBUL)",
+            "telefon": "(212) 731-69-38",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Tu%C4%9Fba%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Anka Eczanesi",
+            "adres": "Cumhuriyet Mahallesi, Abide-İ Hürriyet Caddesi No:23/B Şişli / İstanbul (ISTANBUL)",
+            "telefon": "(212) 812-52-62",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Anka%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Bahçe Eczanesi",
+            "adres": "Feriköy Mahallesi, Kurtuluş Caddesi No:108/A Şişli / İstanbul (ISTANBUL)",
+            "telefon": "(212) 296-34-17",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Bah%C3%A7e%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Oğuz Kağan Eczanesi",
+            "adres": "Mecidiyeköy Mahallesi, Mecidiye Caddesi No:10 Mecidiyeköy / Şişli / İstanbul (ISTANBUL)",
+            "telefon": "(212) 213-11-40",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=O%C4%9Fuz%20Ka%C4%9Fan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Deniz Pera Eczanesi",
+            "adres": "Halaskargazi Mahallesi, Halaskargazi Caddesi No:18/A Şişli / İstanbul (ISTANBUL)",
+            "telefon": "(212) 247-21-58",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Deniz%20Pera%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Ahmet Yesevi Eczanesi",
+            "adres": "Battalgazi Mahallesi, Paşaköy Caddesi No:63/A Altıntepe Sultanbeyli / İstanbul (ISTANBUL)",
+            "telefon": "(541) 669-12-00",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ahmet%20Yesevi%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Işık Eczanesi",
+            "adres": "Battalgazi Mahallesi, Paşaköy Caddesi No:61/A Mimarsinan / Sultanbeyli / İstanbul (ISTANBUL)",
+            "telefon": "(505) 776-09-60",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=I%C5%9F%C4%B1k%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Ayçiçek Eczanesi",
+            "adres": "75. Yıl Mahallesi, 1301.Sokak No:2/A Sultangazi / İstanbul (ISTANBUL)",
+            "telefon": "(212) 536-29-56",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ay%C3%A7i%C3%A7ek%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Hicret Eczanesi",
+            "adres": "Belediye Sokak-Sultangazi Eğitim Araştırma Hastanesi karşısı, Neva AVM yanı (ISTANBUL)",
+            "telefon": "(212) 475-18-24",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Hicret%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Yeni Huzur Eczanesi",
+            "adres": "Malkoçoğlu Mahallesi, Mehmet Akif Ersoy Caddesi No:27/A Sultangazi / İstanbul (ISTANBUL)",
+            "telefon": "(212) 594-04-67",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Yeni%20Huzur%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Sude Eczanesi",
+            "adres": "Uğur Mumcu Mahallesi, N Caddesi, No:47-49M C Blok No:83 Sultançiftliği Sultangazi / İstanbul (ISTANBUL)",
+            "telefon": "(542) 676-10-64",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Sude%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Berkay Eczanesi",
+            "adres": "Mimar Sinan Mahallesi, Başak Sokak (G.74 Sokak) No:21/D Mimarsinan / Tuzla / İstanbul (ISTANBUL)",
+            "telefon": "(216) 423-50-48",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Berkay%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Irmak Eczanesi",
+            "adres": "Elmalıkent Mahallesi, Adem Yavuz Caddesi No:153 Ümraniye / İstanbul (ISTANBUL)",
+            "telefon": "(216) 632-57-57",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Irmak%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Eczane Makaracı",
+            "adres": "Cemil Meriç Mahallesi, İstiklal Caddesi, No:2/C Ihlamurkuyu / Ümraniye / İstanbul (ISTANBUL)",
+            "telefon": "(216) 614-09-36",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Eczane%20Makarac%C4%B1%20ISTANBUL"
+        },
+        {
+            "isim": "Avrupa Eczanesi",
+            "adres": "Yamanevler Mahallesi, Dr.Fazıl Küçük Caddesi No:8/1AF Avrupa Konutları Ümraniye / İstanbul (ISTANBUL)",
+            "telefon": "(216) 520-55-55",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Avrupa%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Çamlıca Aslıhan Eczanesi",
+            "adres": "Burhaniye Mahallesi, Osmangazi Sokak No:1/B Üsküdar / İstanbul (ISTANBUL)",
+            "telefon": "(216) 321-96-91",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%87aml%C4%B1ca%20Asl%C4%B1han%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Ömer Eczanesi",
+            "adres": "Çamlıca Kısıklı Total Benzin İstasyonu karşısı, Medicana Hastanesi çaprazı, Çamlıca Medipol Üniversitesi Hastanesi yanı (ISTANBUL)",
+            "telefon": "(216) 461-26-91",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%96mer%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Kiraz Eczanesi",
+            "adres": "Kirazlıtepe Mahallesi, Orhan Seyfi Orhon Caddesi No:6/C D:20 Üsküdar / İstanbul (ISTANBUL)",
+            "telefon": "(216) 318-69-07",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Kiraz%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Zeynep Zengin Eczanesi",
+            "adres": "Valide-İ Atik Mahallesi, Zeynep Kamil Sokak No:1/A Üsküdar / İstanbul (ISTANBUL)",
+            "telefon": "(216) 553-43-45",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Zeynep%20Zengin%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Bulvar Eczanesi",
+            "adres": "Nuripaşa Mahallesi, 58 Bulvar Bulvarı No:132/B Zeytinburnu / İstanbul (ISTANBUL)",
+            "telefon": "(212) 665-84-34",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Bulvar%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Hamidi Eczanesi",
+            "adres": "Telsiz Mahallesi, 82/2.Sokak No:6 Telsiz / Zeytinburnu / İstanbul (ISTANBUL)",
+            "telefon": "(212) 664-82-22",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Hamidi%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Hayat Eczanesi",
+            "adres": "Heybeliada Mahallesi, Ayyıldız Caddesi No:43 Heybeliada / Adalar / İstanbul (ISTANBUL)",
+            "telefon": "(216) 351-99-07",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Hayat%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Çilek Eczanesi",
+            "adres": "Hadımköy Mahallesi, Göçmen Sokak No:22/C Arnavutköy / İstanbul (ISTANBUL)",
+            "telefon": "(535) 236-97-80",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%87ilek%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Beyza Onarer Eczanesi",
+            "adres": "Merkez Asm Sırası, Garanti Bank'ın 3 Sokak Altında A101'in Ilerisinde Sokağın Sonunda,starmaxx Karşısı (ISTANBUL)",
+            "telefon": "(212) 597-71-72",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Beyza%20Onarer%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Hayat Ağacı Eczanesi",
+            "adres": "Ata Blokları 30.kadıköy Noteri Yanı Marmaris Büfe Yanı Ata Blokları 3/4Blok Metropol Istanbul Avm Tam Karşısı (ISTANBUL)",
+            "telefon": "(216) 395-29-46",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Hayat%20A%C4%9Fac%C4%B1%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Sevgi Eczanesi",
+            "adres": "İçerenköy Mahallesi, Prof.Dr.Necmettin Erbakan Caddesi No:45/A Ataşehir / İstanbul (ISTANBUL)",
+            "telefon": "(216) 572-02-06",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Sevgi%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Yenişehir Eczanesi",
+            "adres": "Mevlana Mahallesi, Sakarya Caddesi No:12 Ataşehir / İstanbul (ISTANBUL)",
+            "telefon": "(216) 314-27-30",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Yeni%C5%9Fehir%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Nuh Eczanesi",
+            "adres": "Fetih Mahallesi, Hicazkar (Örnek Mah) Sokak Bağkur Sitesi No:10/1A Ataşehir / Istanbul (ISTANBUL)",
+            "telefon": "(216) 324-46-96",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Nuh%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Cihangir Eczanesi",
+            "adres": "Cihangir Mahallesi, Meşrutiyet Caddesi No:53/B Avcılar / İstanbul (ISTANBUL)",
+            "telefon": "(212) 422-55-51",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Cihangir%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Seren Eczanesi",
+            "adres": "Mustafa Kemal Paşa Mahallesi, Beyoğlu Caddesi No:67/A Avcılar / İstanbul (ISTANBUL)",
+            "telefon": "(212) 423-06-04",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Seren%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Toraman Eczanesi",
+            "adres": "Ebubekir Camii civarı, Ümmi Mihcen Kız Anadolu İmam Hatip Lisesi yanı (ISTANBUL)",
+            "telefon": "(212) 569-02-70",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Toraman%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "As Eczanesi",
+            "adres": "Bağcılar Endüstri Meslek Lisesi çaprazı, Hızır Reis Kız Anadolu İmam Hatip Lisesi yanı (ISTANBUL)",
+            "telefon": "(212) 630-32-34",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=As%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "İkizler Eczanesi",
+            "adres": "Bağcılar Ağız ve Diş Hastanesi karşısı, Özel Şafak Hastanesinden Göztepe yönüne yokuş yukarı giderken 300 metre ileride Sağda (ISTANBUL)",
+            "telefon": "(212) 515-74-40",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C4%B0kizler%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Güneşli İpek Eczanesi",
+            "adres": "15 Temmuz Mahallesi, Fevzi Çakmak Caddesi No:37/A Güneşli Bağcılar / İstanbul (ISTANBUL)",
+            "telefon": "(212) 655-54-11",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%BCne%C5%9Fli%20%C4%B0pek%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Has Eczanesi",
+            "adres": "Kadir Has AVM E-5 üstü, Migros yanı, Bahçelievler Metrobüs Durağında, Otobüs Durağının arkası (ISTANBUL)",
+            "telefon": "(212) 442-24-77",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Has%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Şifa Eczanesi",
+            "adres": "Hürriyet Mahallesi, Sedef Sokak No:14/C Bahçelievler / İstanbul (ISTANBUL)",
+            "telefon": "(212) 442-00-34",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C5%9Eifa%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Meva Eczanesi",
+            "adres": "Siyavuşpaşa Mahallesi, Çağlayan Sokak No:6/A Bahçelievler / İstanbul (ISTANBUL)",
+            "telefon": "(212) 505-88-14",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Meva%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Yonca Eczanesi",
+            "adres": "Ataköy 7-8-9-10. Kısım Mahallesi, Nilüfer Sokak No:3/A Bakırköy / İstanbul (ISTANBUL)",
+            "telefon": "(212) 559-83-04",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Yonca%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "İnan Eczanesi",
+            "adres": "Şenlikköy Mahallesi, Florya Caddesi No:21/C Florya / Bakırköy / İstanbul (ISTANBUL)",
+            "telefon": "(507) 302-44-95",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C4%B0nan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Gün Eczanesi",
+            "adres": "Yeşilyurt Mahallesi, Ekin Sokak No:21/B Yeşilköy / Bakırköy / İstanbul (ISTANBUL)",
+            "telefon": "(212) 573-70-76",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%BCn%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Emre Eczanesi",
+            "adres": "İncirli Caddesi, Dr. Salih Zeki Sokak No:1/a Zuhuratbaba Bakırköy / Istanbul (ISTANBUL)",
+            "telefon": "(212) 542-01-48",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Emre%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Portakal Eczanesi",
+            "adres": "Başakşehir Devlet Hastanesi Sağımızda kaldığında 500 metre ileride Arc Çarşı'da, Güneli Fırın yanı, Gri Market BİM Market yanı (ISTANBUL)",
+            "telefon": "(212) 488-06-06",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Portakal%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Süreyya Eczanesi",
+            "adres": "Ziya Gökalp Mahallesi, Olimpiyat Bulvarı, Mavera Comfort Sitesi Blok:B5 No:22/B Başakşehir / İstanbul (ISTANBUL)",
+            "telefon": "(531) 648-38-11",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=S%C3%BCreyya%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Zülal Eczanesi",
+            "adres": "Şahintepe Mahallesi, Kurban Sokak No:14/A Altınşehir Başakşehir / İstanbul (ISTANBUL)",
+            "telefon": "(212) 648-48-46",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Z%C3%BClal%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Ege Eczanesi",
+            "adres": "Bahçeşehir 2. Kısım Mahallesi, 1.Cadde A5-Blok No:108/O Başakşehir / İstanbul (ISTANBUL)",
+            "telefon": "(212) 871-82-77",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ege%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Reyhan Eczanesi",
+            "adres": "Vişnezade Mahallesi, Şair Nedim Caddesi No:57/B Beşiktaş / İstanbul (ISTANBUL)",
+            "telefon": "(212) 261-52-01",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Reyhan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Sütsever Bebek Eczanesi",
+            "adres": "Bebek Mahallesi, Cevdet Paşa Sokak No:53/2 Bebek / Beşiktaş / İstanbul (ISTANBUL)",
+            "telefon": "(212) 263-35-10",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=S%C3%BCtsever%20Bebek%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Doğa Eczanesi",
+            "adres": "Ortaköy Mahallesi, Ahmet Adnan Saygun Caddesi Ağaoğlu Ap. No:68/b Beşiktaş / Istanbul (ISTANBUL)",
+            "telefon": "(212) 227-46-16",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Do%C4%9Fa%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Beykoz Eczanesi",
+            "adres": "Kavacık'tan Çavuşbaşı yönüne doğru 2,5 km ileride, Müzellefte Baltacı Fırın karşısı (ISTANBUL)",
+            "telefon": "(216) 537-02-03",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Beykoz%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Handan Eczanesi",
+            "adres": "Tokatköy Mahallesi, Sultan Aziz Caddesi No:76/A Beykoz / İstanbul (ISTANBUL)",
+            "telefon": "(216) 323-10-75",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Handan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Özlem Eczanesi",
+            "adres": "Demir Romance Sitesi Altı , Pazar Istanbul Karşı Sokağında (Yaşam Vadisi )Kameroğlu Inşaat Karşısında (ISTANBUL)",
+            "telefon": "(212) 999-68-12",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%96zlem%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Sümeyra Eczanesi",
+            "adres": "Adnan Kahveci Mahallesi, Yavuz Sultan Selim Bulvarı No:41/I Gürpınar Beylikdüzü / İstanbul (ISTANBUL)",
+            "telefon": "(212) 855-85-70",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=S%C3%BCmeyra%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Eylül Eczanesi",
+            "adres": "Yakuplu Mahallesi, 120.Sokak No:47/B-9 Beylikdüzü / İstanbul (ISTANBUL)",
+            "telefon": "(552) 876-13-11",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Eyl%C3%BCl%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Nihal Eczanesi",
+            "adres": "Sütlüce Mahallesi, Talip Paşa Sokak No:14 Beyoğlu / İstanbul (ISTANBUL)",
+            "telefon": "(212) 255-78-99",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Nihal%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Lara Eczanesi",
+            "adres": "Cihangir Mahallesi, Sıraselviler Caddesi No:73/A Cihangir Beyoğlu / İstanbul (ISTANBUL)",
+            "telefon": "(212) 293-90-86",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Lara%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Seher Eczanesi",
+            "adres": "Piyalepaşa Mahallesi, Piyalepaşa Caddesi No:104/A Beyoğlu / İstanbul (ISTANBUL)",
+            "telefon": "(212) 254-36-04",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Seher%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Candan Eczanesi",
+            "adres": "Fatih Mahallesi, Cengiz Topel Caddesi, No:79/1U Büyükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(212) 812-23-78",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Candan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Han Eczanesi",
+            "adres": "Mimar Sinan Araç Muayne Istasyonuna Giderken Sedat Aksu Pastanesinin Bulunduğu Kavşakta (ISTANBUL)",
+            "telefon": "(212) 789-18-29",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Han%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Dilem Eczanesi",
+            "adres": "Ulus Mahallesi, Atatürk Caddesi No:24/A Tepecik / Büyükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(212) 861-06-22",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Dilem%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Yücel Eczanesi",
+            "adres": "Kaleiçi Mahallesi, Tevfik Erdönmez Caddesi Kızılay Iş Hanı Çatalca / Istanbul (ISTANBUL)",
+            "telefon": "(212) 789-12-38",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Y%C3%BCcel%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Fırat Eczanesi",
+            "adres": "Merkez Mahallesi, Piri Reis Caddesi No:58/B Çekmeköy / İstanbul (ISTANBUL)",
+            "telefon": "(536) 796-52-03",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=F%C4%B1rat%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Altınsoy Eczanesi",
+            "adres": "Ekşioğlu Mahallesi, Saray Caddesi No:101/2B Çekmeköy / İstanbul (ISTANBUL)",
+            "telefon": "(216) 771-78-10",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Alt%C4%B1nsoy%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Hafize Eczanesi",
+            "adres": "Şehit Celal Demir Parkı karşısı, Tuna Sağlık Ocağı karşısı, Cuma Pazarı yanı (ISTANBUL)",
+            "telefon": "(212) 431-97-11",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Hafize%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Günay Eczanesi",
+            "adres": "Oruç Reis Mahalle Muhtarlığının Sokağı, Okulların bulunduğu sokak, Işık Tıp ve İstanbul Tıp Merkezi'nin karşısındaki Optikçiler Sokağından 100 metre aşağıda (ISTANBUL)",
+            "telefon": "(212) 429-69-79",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%BCnay%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Bağlarçeşme Merkez Eczanesi",
+            "adres": "Ahmet Arif Caddesi - Kanca Market yanı, Esenyurt İtfaiye İstasyonunun 50 metre aşağısında (ISTANBUL)",
+            "telefon": "(212) 803-16-28",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ba%C4%9Flar%C3%A7e%C5%9Fme%20Merkez%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Mimoza Eczanesi",
+            "adres": "Beygah (Sosyete Pazarı) karşısı, 30 Nolu Aile Sağlığı Merkezi ve Piri Reis Muhtarlığı yanı, Şok Market yanı (ISTANBUL)",
+            "telefon": "(212) 965-23-55",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Mimoza%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Melis Işık Eczanesi",
+            "adres": "Talatpaşa Mahallesi, Fatih Sultan Mehmet Caddesi No:83/B-2 Esenyurt / İstanbul (ISTANBUL)",
+            "telefon": "(212) 628-42-61",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Melis%20I%C5%9F%C4%B1k%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Flatofis Begüm Eczanesi",
+            "adres": "Nişanca Mahallesi, Otakçılar Caddesi, Kanal 7 Binası No:78/2 Zemin A-Blok 4/7 Eyüp / İstanbul (ISTANBUL)",
+            "telefon": "(212) 437-87-50",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Flatofis%20Beg%C3%BCm%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Zümrüt Eczanesi",
+            "adres": "0 (212) 625-04-25 (ISTANBUL)",
+            "telefon": "(212) 625-04-25",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Z%C3%BCmr%C3%BCt%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Kemerburgaz Arium Eczanesi",
+            "adres": "Mimarsinan Mahallesi, Zümrüt Sokak No:15/D Kemerburgaz / Eyüpsultan / İstanbul (ISTANBUL)",
+            "telefon": "(212) 450-31-12",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Kemerburgaz%20Arium%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Bahar Eczanesi",
+            "adres": "Seyit Ömer Mahallesi, Kızılelma Caddesi No:42/A Fındıkzade / Fatih / İstanbul (ISTANBUL)",
+            "telefon": "(212) 530-18-43",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Bahar%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Roza Eczanesi",
+            "adres": "Akşemsettin Mahallesi, Sarı Abdullah Efendi Sokak No:42/C İskenderpaşa Fatih / İstanbul (ISTANBUL)",
+            "telefon": "(212) 812-47-54",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Roza%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Deniz Şehremini Eczanesi",
+            "adres": "Şehremini Mahallesi, Büyük Saray Meydanı Caddesi No:11 Fatih / İstanbul (ISTANBUL)",
+            "telefon": "(212) 589-54-23",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Deniz%20%C5%9Eehremini%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Gaziosmanpaşa Eczanesi",
+            "adres": "Karayolları Mahallesi, 621.Sokak No:60/A Fevziçakmak Gaziosmanpaşa / İstanbul (ISTANBUL)",
+            "telefon": "(212) 538-00-34",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Gaziosmanpa%C5%9Fa%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Çalışkan Eczanesi",
+            "adres": "Bosna Çukurçeşme Durağından 400 Metre Sonra Sağda Atmlerin Ilerisi,arena Fırın Karşısı (ISTANBUL)",
+            "telefon": "(212) 563-74-03",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%87al%C4%B1%C5%9Fkan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Serkan Eczanesi",
+            "adres": "Merkez Mahallesi, Eyüp Caddesi No:24-26/A Gaziosmanpaşa / İstanbul (ISTANBUL)",
+            "telefon": "(212) 614-44-99",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Serkan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Güven Eczanesi",
+            "adres": "Güven Mahallesi, İnönü Caddesi No:5/B Güngören / İstanbul (ISTANBUL)",
+            "telefon": "(212) 506-37-15",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%BCven%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Uhud Eczanesi",
+            "adres": "Çarşı Içi Şok Market Uhud Camii Yanı,elektrik Idaresinden Davutpaşa'ya Inerken Sağdaki Halısahanın Olduğu Caddeden Içeri Girilecek,altun Marketten So (ISTANBUL)",
+            "telefon": "(212) 482-37-47",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Uhud%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Bostancı Eczanesi",
+            "adres": "Bostancı Mahallesi, Prof.Dr.Ali Nihad Tarlan Caddesi No:54/B Kadıköy / İstanbul (ISTANBUL)",
+            "telefon": "(850) 677-56-16",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Bostanc%C4%B1%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Ethem Efendi Eczanesi",
+            "adres": "Eczanemiz Ethem Efendi Caddesindeki Marmaray Hattına Yakın Olup,beyaz Işık Diş Kliniği Ile Erenköy Ptt Arasındadır. (ISTANBUL)",
+            "telefon": "(216) 476-00-34",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ethem%20Efendi%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Ece Bayram Eczanesi",
+            "adres": "Feneryolu Mahallesi, Bağdat Caddesi No:71/A Feneryolu / Kadıköy / İstanbul (ISTANBUL)",
+            "telefon": "(216) 629-48-80",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ece%20Bayram%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Eczane Irem Özdoğan",
+            "adres": "Göztepe Mahallesi, Çimenzar Sokak No:36 Göztepe Kadıköy / İstanbul (ISTANBUL)",
+            "telefon": "(216) 565-19-50",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Eczane%20Irem%20%C3%96zdo%C4%9Fan%20ISTANBUL"
+        },
+        {
+            "isim": "Nautilus Eczanesi",
+            "adres": "Acıbadem Mahallesi, Fatih Sokak No:48 Koşuyolu Kadıköy / İstanbul (ISTANBUL)",
+            "telefon": "(216) 339-11-66",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Nautilus%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "İskele Eczanesi",
+            "adres": "Haldun Taner Tiyatrosu karşısı, Büyük İş Bankası, Garanti Bankası ve Ziraat Bankası ortası (ISTANBUL)",
+            "telefon": "(216) 336-43-66",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C4%B0skele%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Yeni İstanbul Eczanesi",
+            "adres": "Sahrayıcedit Mahallesi, Bayar Caddesi No:5/1A Sahrayıcedit Kadıköy / İstanbul (ISTANBUL)",
+            "telefon": "(216) 416-61-71",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Yeni%20%C4%B0stanbul%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Pınar Eczanesi",
+            "adres": "Dayehatun Camii Yanı-Kağıthane Metro Durağına Yürüme Mesafesinde- Kızılay Hastanesinin Aşağısı (ISTANBUL)",
+            "telefon": "(212) 295-72-22",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=P%C4%B1nar%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Öncü Eczanesi",
+            "adres": "Avangart Istanbul Sitesi Çarşısı - Vadi Istanbul Cami Karşısı - Skyland Hom Avm Yanı (ISTANBUL)",
+            "telefon": "(542) 845-67-72",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%96nc%C3%BC%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "4. Levent Metro Eczanesi",
+            "adres": "Emniyet Evleri Mahallesi, Lala Paşa Sokak No:9/B Kağıthane / İstanbul (ISTANBUL)",
+            "telefon": "(212) 282-92-83",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=4.%20Levent%20Metro%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "İrem Eczanesi",
+            "adres": "Ortabayır Mahallesi, Mescit Sokak No:21/B Gültepe / Kağıthane / İstanbul (ISTANBUL)",
+            "telefon": "(212) 280-29-05",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C4%B0rem%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Hanımeli Eczanesi",
+            "adres": "Atalar Mahallesi, Aydın Sokak No:24/A Atalar / Kartal / İstanbul (ISTANBUL)",
+            "telefon": "(216) 488-25-78",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Han%C4%B1meli%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Ümit Eczanesi",
+            "adres": "Karlıktepe Mahallesi, İnönü Caddesi No:26-4 Esentepe / Kartal / İstanbul (ISTANBUL)",
+            "telefon": "(216) 353-62-39",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%9Cmit%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Anatolium Eczanesi",
+            "adres": "Soğanlık Yeni Mahallesi, Soğanlık E-5 Yanyol Caddesi No:72/185 Soğanlık / Kartal / İstanbul (ISTANBUL)",
+            "telefon": "(216) 451-51-51",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Anatolium%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Beyatlı Eczanesi",
+            "adres": "Cumhuriyet Mahallesi, Dr.Sadık Ahmet Caddesi No:60/A Küçükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(505) 797-67-25",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Beyatl%C4%B1%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Tanrıverdi Eczanesi",
+            "adres": "Halkalı Merkez Mahallesi, Zafer Cömert Sokak No:3/A-B Küçükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(212) 472-47-27",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Tanr%C4%B1verdi%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Sena Eczanesi",
+            "adres": "Atatürk Mahallesi, İkitelli Caddesi, No:67/B İkitelli Küçükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(212) 693-94-52",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Sena%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Nurşen Eczanesi",
+            "adres": "Kanarya Mahallesi, Tavus Kuşu Caddesi No:14 Küçükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(212) 599-01-71",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Nur%C5%9Fen%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Akif Eczanesi",
+            "adres": "Tevfik Bey Mahallesi, Yeldeğirmeni Caddesi No:43/B Küçükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(212) 830-09-85",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Akif%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Barış Eczanesi",
+            "adres": "Kemalpaşa Mahallesi, Halkalı Caddesi No:147/A Sefaköy Küçükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(212) 624-27-75",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Bar%C4%B1%C5%9F%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Nuran Eczanesi",
+            "adres": "Başıbüyük Mahallesi, Hastane Arkası Sokak No:1 Başıbüyük Maltepe / İstanbul (ISTANBUL)",
+            "telefon": "(216) 421-44-21",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Nuran%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Çağatay Eczanesi",
+            "adres": "İdealtepe Mahallesi, Bağdat Caddesi, No:176/B İdealtepe / Maltepe / İstanbul (ISTANBUL)",
+            "telefon": "(216) 489-82-70",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%87a%C4%9Fatay%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Marmaray Eczanesi",
+            "adres": "Bağlarbaşı Mahallesi, İnönü Caddesi No:2/A Maltepe / İstanbul (ISTANBUL)",
+            "telefon": "(216) 352-00-67",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Marmaray%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Bayraktar Eczanesi",
+            "adres": "Güzelyalı Muhtarlığı karşısı, Güzelyalı Hikmet Ataman Sağlık Ocağı karşısı, Güzelyalı Köprüsü üzeri (ISTANBUL)",
+            "telefon": "(216) 494-56-55",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Bayraktar%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Kavakpınar Merkez Eczanesi",
+            "adres": "Kavakpınar Mahallesi, Abdi İpekçi Caddesi, No:71/C Kavakpınar Pendik / İstanbul (ISTANBUL)",
+            "telefon": "(216) 396-78-15",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Kavakp%C4%B1nar%20Merkez%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Gölebeyi Eczanesi",
+            "adres": "Şeyhli Mahallesi, Aziz Mahmut Hüdai Caddesi No:7/A Pendik / İstanbul (ISTANBUL)",
+            "telefon": "(216) 378-23-19",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%B6lebeyi%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Eczane Serap",
+            "adres": "Fatih Mahallesi, Güvercin Sokak No:6/A Ortadağ / Sancaktepe / İstanbul (ISTANBUL)",
+            "telefon": "(216) 311-92-82",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Eczane%20Serap%20ISTANBUL"
+        },
+        {
+            "isim": "Dicle Eczanesi",
+            "adres": "Kemal Türkler Mahallesi, Osmangazi Caddesi No:41/B Sancaktepe / İstanbul (ISTANBUL)",
+            "telefon": "(216) 509-16-48",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Dicle%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Feyza Eczanesi",
+            "adres": "Atatürk Mahallesi, Uysal Caddesi No:86/K Sarıgazi Sancaktepe / İstanbul (ISTANBUL)",
+            "telefon": "(546) 122-82-25",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Feyza%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Nimet Eczanesi",
+            "adres": "PTT Evleri Mahallesi, Bahçeköy Caddesi No:11 Kozdere / Sarıyer / İstanbul (ISTANBUL)",
+            "telefon": "(212) 242-32-08",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Nimet%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Zekeriyaköy Cadde Eczanesi",
+            "adres": "Zekeriyaköy Mahallesi, 1. Caddesi No:50 Merkezköyler Sarıyer / Istanbul (ISTANBUL)",
+            "telefon": "(530) 405-74-02",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Zekeriyak%C3%B6y%20Cadde%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Tarabya İnci Eczanesi",
+            "adres": "Tarabya Mahallesi, Arabayolu Caddesi No:200/B Sarıyer / İstanbul (ISTANBUL)",
+            "telefon": "(212) 262-56-44",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Tarabya%20%C4%B0nci%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Gökoğlu Eczanesi",
+            "adres": "Yeni Mahallesi, General Ali Ihsan Türkkan Caddesi Vega Avm B Blok No:7 Iç Kapı No:15 Silivri / Istanbul (ISTANBUL)",
+            "telefon": "(212) 728-74-64",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%B6ko%C4%9Flu%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Sönmez Eczanesi",
+            "adres": "Yavuz Selim Mahallesi, 202.Cadde No:25/A Silivri / İstanbul (ISTANBUL)",
+            "telefon": "(212) 731-85-15",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=S%C3%B6nmez%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Mumcu Eczanesi",
+            "adres": "Cumhuriyet Mahallesi, İncirli Dede Caddesi No:8/26 Şişli / İstanbul (ISTANBUL)",
+            "telefon": "(212) 812-21-11",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Mumcu%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Avrupacity Eczanesi",
+            "adres": "Avrupa Konutları Şişli Eski Profilo Avm Yernde Macro Center Yanında C Blokta (ISTANBUL)",
+            "telefon": "(212) 233-26-95",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Avrupacity%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Sezen Eczanesi",
+            "adres": "Şişli Merkez Mahallesi, Abidei Hürriyet Caddesi No:118/B Şişli / İstanbul (ISTANBUL)",
+            "telefon": "(212) 291-10-19",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Sezen%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Elif Eczanesi",
+            "adres": "Mehmet Akif Mahallesi, Fatih Bulvarı No:222/b Sultanbeyli / Istanbul (ISTANBUL)",
+            "telefon": "(216) 398-28-43",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Elif%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Eren Eczanesi",
+            "adres": "Abdurrahmangazi Mahallesi, Balmumu Sokak No:11/B Sultanbeyli / İstanbul (ISTANBUL)",
+            "telefon": "(216) 398-40-27",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Eren%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Bahtiyar Eczanesi",
+            "adres": "Yunus Emre Mahallesi, Adem Yavuz Caddesi No:71/B Sultangazi / İstanbul (ISTANBUL)",
+            "telefon": "(212) 650-76-56",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Bahtiyar%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Özdemir Eczanesi",
+            "adres": "Uğur Mumcu Mahallesi, Muhsin Yazcıoğlu Caddesi, No:10/A Sultançiftliği Sultangazi / İstanbul (ISTANBUL)",
+            "telefon": "(212) 668-08-28",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%96zdemir%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Sultan Eczanesi",
+            "adres": "Uğur Mumcu Mahallesi, Belediye Sokak No:2/E Sultançiftliği / Sultangazi / İstanbul (ISTANBUL)",
+            "telefon": "(552) 635-40-52",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Sultan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Yaşam Eczanesi",
+            "adres": "Yayla Mahallesi, Şinasi Dural Caddesi No:31/A Tuzla / İstanbul (ISTANBUL)",
+            "telefon": "(216) 446-46-05",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ya%C5%9Fam%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Erdem Eczanesi",
+            "adres": "Çamlık Mahallesi, İkbal Caddesi No:99 Çakmak / Ümraniye / İstanbul (ISTANBUL)",
+            "telefon": "(216) 508-27-12",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Erdem%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Karaca Eczanesi",
+            "adres": "Kazım Karabekir Mahallesi, Adem Yavuz Caddesi, No:28 Kazımkarabekir Ümraniye / İstanbul (ISTANBUL)",
+            "telefon": "(216) 630-03-63",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Karaca%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Pelin Eczanesi",
+            "adres": "Şerifali Mahallesi, Turcan Caddesi No:55/A Yukarıdudullu Ümraniye / İstanbul (ISTANBUL)",
+            "telefon": "(216) 314-37-14",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Pelin%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Acıbadem Demet Eczanesi",
+            "adres": "Acıbadem Mahallesi, Acıbadem Caddesi No:181/A Acıbadem / Üsküdar / İstanbul (ISTANBUL)",
+            "telefon": "(216) 327-44-36",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ac%C4%B1badem%20Demet%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Namazgah Eczanesi",
+            "adres": "Bulgurlu Mahallesi, İzzettinbey Sokak No:11/A Bulgurlu Üsküdar / İstanbul (ISTANBUL)",
+            "telefon": "(216) 650-70-20",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Namazgah%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Çengelköy Eczanesi",
+            "adres": "Çengelköy Mahallesi, Çengelköy Caddesi No:46 Çengelköy / Üsküdar / İstanbul (ISTANBUL)",
+            "telefon": "(216) 321-51-94",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%87engelk%C3%B6y%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Altın Eczanesi",
+            "adres": "Zeynep Kamil Hastanesi Doğum Acil Karşısı, Zeynep Kamil Ilkokulu Yanı, Tümen Büfenin Arkası (ISTANBUL)",
+            "telefon": "(216) 553-01-61",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Alt%C4%B1n%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Karadeniz Eczanesi",
+            "adres": "Nuripaşa Mahallesi, Bekir Subaşı Sokak No:14 Zeytinburnu / İstanbul (ISTANBUL)",
+            "telefon": "(212) 416-23-46",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Karadeniz%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Nisa Zeytinburnu Eczanesi",
+            "adres": "Beştelsiz Mahallesi, 124.Sokak No:15/A Telsiz / Zeytinburnu / İstanbul (ISTANBUL)",
+            "telefon": "(212) 664-50-17",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Nisa%20Zeytinburnu%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Büyükada Eczanesi",
+            "adres": "Maden Mahallesi, Çınar Caddesi No:4/A Büyükada / Adalar / İstanbul (ISTANBUL)",
+            "telefon": "(216) 382-67-56",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=B%C3%BCy%C3%BCkada%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Hadımköy Şirin Eczanesi",
+            "adres": "Aile Sağlığı Merkezi karşısı (ISTANBUL)",
+            "telefon": "(212) 771-21-49",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Had%C4%B1mk%C3%B6y%20%C5%9Eirin%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Anadolu Eczanesi",
+            "adres": "Anadolu Mahallesi, Necip Fazıl Caddesi No:59/61-A Arnavutköy / İstanbul (ISTANBUL)",
+            "telefon": "(501) 367-17-79",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Anadolu%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Aslı Arnavutköy Eczanesi",
+            "adres": "Garanti Bankasından Jandarmaya doğru inerken A101 Marketin sokağında, Avlu AVM yakını, Merkez Aile Sağlığı Merkezi karşısı (ISTANBUL)",
+            "telefon": "(212) 597-60-09",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Asl%C4%B1%20Arnavutk%C3%B6y%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Ataşehir Metropol Eczanesi",
+            "adres": "Atatürk Mahallesi, Ataşehir Bulvarı No:14/C Ataşehir / İstanbul (ISTANBUL)",
+            "telefon": "(216) 517-51-15",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ata%C5%9Fehir%20Metropol%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Kekik Eczanesi",
+            "adres": "Kayışdağı Mahallesi, Raci Caddesi No:3/A Ataşehir / İstanbul (ISTANBUL)",
+            "telefon": "(216) 420-96-78",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Kekik%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Prime Eczanesi",
+            "adres": "Yenisahra Mahallesi, Karaman Caddesi No:1/1 Dükkan:6 Ataşehir / İstanbul (ISTANBUL)",
+            "telefon": "(216) 610-11-11",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Prime%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Gülistan Eczanesi",
+            "adres": "Ambarlı Mahallesi, Hasat Sokak No:16/A Ambarlı / Avcılar / İstanbul (ISTANBUL)",
+            "telefon": "(212) 509-63-81",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%BClistan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Güler Eczanesi",
+            "adres": "Firuzköy Mahallesi, Tiryaki Suyu Caddesi No:22/C Avcılar / İstanbul (ISTANBUL)",
+            "telefon": "(212) 699-35-90",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%BCler%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Nova Eczanesi",
+            "adres": "Tahtakale Mahallesi, Abdi İpekçi Caddesi No:4/2B Ispartakule / Avcılar / İstanbul (ISTANBUL)",
+            "telefon": "(212) 405-05-08",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Nova%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Cansızoğlu Eczanesi",
+            "adres": "Bağcılar Anadolu Lisesi karşısı, Yıldıztepe Otobüs Durağı çaprazı (ISTANBUL)",
+            "telefon": "(212) 462-93-30",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Cans%C4%B1zo%C4%9Flu%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Güneşli Tuğba Eczanesi",
+            "adres": "Bağlar Mahallesi, Atatürk Caddesi No:44/A Bağcılar / İstanbul (ISTANBUL)",
+            "telefon": "(212) 651-70-96",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%BCne%C5%9Fli%20Tu%C4%9Fba%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Çaykara Eczanesi",
+            "adres": "Yavuz Selim Mahallesi, 1015.Sokak No:9/A-B Bağcılar / İstanbul (ISTANBUL)",
+            "telefon": "(212) 461-33-37",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%87aykara%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Batuhan Eczanesi",
+            "adres": "Bahçelievler Mahallesi, Deli Hüseyin Paşa Caddesi No:83/A Bahçelievler / İstanbul (ISTANBUL)",
+            "telefon": "(212) 575-11-47",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Batuhan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Cumhuriyet Emre Eczanesi",
+            "adres": "Cumartesi Pazarının kurulduğu Cadde üzerinde, Cumhuriyet Aile Sağlığı Merkezi karşısı (ISTANBUL)",
+            "telefon": "(212) 462-44-69",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Cumhuriyet%20Emre%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Gedik Eczanesi",
+            "adres": "Bahçelievler Belediyesinin 300 metre, Siyavuşpaşa İlkokulunun 100 metre ilerisinde, Kamil Pastanesinden 60 metre yukarıda (ISTANBUL)",
+            "telefon": "(212) 442-21-01",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Gedik%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Eczane Nish",
+            "adres": "Çobançeşme Mahallesi, Sanayi Caddesi No:44DN Çobançeşme / Bahçelievler / İstanbul (ISTANBUL)",
+            "telefon": "(212) 603-60-40",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Eczane%20Nish%20ISTANBUL"
+        },
+        {
+            "isim": "Flora Eczanesi",
+            "adres": "Ataköy 7-8-9-10. Kısım Mahallesi, Çobançeşme E-5 Yanyol Caddesi, Nivo Ataköy Sitesi No:12P Dükkan:A173 Bakırköy / İstanbul (ISTANBUL)",
+            "telefon": "(212) 823-77-23",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Flora%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Yıldız Eczanesi",
+            "adres": "Şenlikköy Mahallesi, Meydan Sokak No:3/A Florya / Bakırköy / İstanbul (ISTANBUL)",
+            "telefon": "(212) 574-16-16",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Y%C4%B1ld%C4%B1z%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Nur Eczanesi",
+            "adres": "Eski Şevketiye Mahallesi-50.Yıl Lisesinin Köşesinde Ahşap Köşkün altı (ISTANBUL)",
+            "telefon": "(212) 663-86-08",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Nur%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Metrokent Eczanesi",
+            "adres": "Başak Mahallesi, Yeşil Vadi Caddesi, No:3/2-C D1 Blok Başakşehir / İstanbul (ISTANBUL)",
+            "telefon": "(212) 809-14-14",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Metrokent%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Elvin Eczanesi",
+            "adres": "Bahçeşehir 2.Kısım Mahallesi, Süzer Bulvarı No:47/B Başakşehir / İstanbul (ISTANBUL)",
+            "telefon": "(212) 669-18-27",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Elvin%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Türkmen Eczanesi",
+            "adres": "Kayabaşı Mahallesi, Gazi Yaşargil Caddesi No:2AC Kayaşehir / Başakşehir / İstanbul (ISTANBUL)",
+            "telefon": "(212) 812-26-86",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=T%C3%BCrkmen%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Gözde Eczanesi",
+            "adres": "Yenidoğan Mahallesi, Abdi İpekçi Caddesi No:35/A Bayrampaşa / İstanbul (ISTANBUL)",
+            "telefon": "(212) 577-70-71",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%B6zde%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Etiler Saka Eczanesi",
+            "adres": "Nispetiye Mahallesi, Peker Sokak No:3/A Beşiktaş / İstanbul (ISTANBUL)",
+            "telefon": "(212) 270-46-00",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Etiler%20Saka%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Manolya Eczanesi",
+            "adres": "Gayrettepe Mahallesi, Cemil Arslan Güder Sokak No:4/D Beşiktaş / İstanbul (ISTANBUL)",
+            "telefon": "(212) 273-20-43",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Manolya%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Günce Eczanesi",
+            "adres": "Ortaköy Mahallesi, Dereboyu Caddesi No:4/A Ortaköy / Beşiktaş / İstanbul (ISTANBUL)",
+            "telefon": "(212) 320-35-35",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%BCnce%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Çubuklu Eczanesi",
+            "adres": "Çubuklu Mahallesi, Fırın Sokak No:18/A Çubuklu / Beykoz / İstanbul (ISTANBUL)",
+            "telefon": "(216) 631-17-24",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%87ubuklu%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Paşabahçe Eczanesi",
+            "adres": "Beykoz Devlet Hastanesi Arka Sokağı(Paşabahçe Pazar Sokağı) - Arçelik Bayi yanı (ISTANBUL)",
+            "telefon": "(216) 331-00-74",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Pa%C5%9Fabah%C3%A7e%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Elma Eczanesi",
+            "adres": "Migros AVM arkası, Acıbadem Tıp Merkezi yakını, İMKB Ortaokulu arkası (ISTANBUL)",
+            "telefon": "(212) 873-96-86",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Elma%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Nazlı Eczanesi",
+            "adres": "Adnan Kahveci Mahallesi, Anadolu Caddesi, Dora Park 2 Sitesi No:17/1/18 Gürpınar / Beylikdüzü / İstanbul (ISTANBUL)",
+            "telefon": "(212) 855-08-15",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Nazl%C4%B1%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Site Eczanesi",
+            "adres": "3. Matbaacılar Sitesi Giriş Kapısı çaprazı, Beylikdüzü 8 Nolu Aile Sağlığı Merkezi karşısı (ISTANBUL)",
+            "telefon": "(212) 924-81-51",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Site%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Hut Eczanesi",
+            "adres": "Camiikebir Mahallesi, Dereboyu Caddesi No:18/1-A Beyoğlu / İstanbul (ISTANBUL)",
+            "telefon": "(212) 253-70-83",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Hut%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Fatih Eczanesi",
+            "adres": "Piyalepaşa Mahallesi, Fatih Sultan Caddesi No:12 Okmeydanı / Beyoğlu / İstanbul (ISTANBUL)",
+            "telefon": "(212) 255-19-43",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Fatih%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Beyaz Eczanesi",
+            "adres": "Fatih Mahallesi, Adnan Kahveci Caddesi No:20/A Büyükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(530) 943-54-29",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Beyaz%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Öztürk Eczanesi",
+            "adres": "Mimar Sinan Merkez Mahallesi, Uğur Sokak No:21/L Mimarsinan / Büyükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(212) 883-43-04",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%96zt%C3%BCrk%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Yüksel Eczanesi",
+            "adres": "Ulus Mahallesi, İstiklal Caddesi No:33/C Büyükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(212) 881-22-42",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Y%C3%BCksel%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Çatalca Şifa Eczanesi",
+            "adres": "Kaleiçi Mahallesi, Ferhatpaşa Caddesi, No:15/A Çatalca / İstanbul (ISTANBUL)",
+            "telefon": "(212) 789-20-28",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%87atalca%20%C5%9Eifa%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Mehmet Akif Eczanesi",
+            "adres": "Mehmet Akif Mahallesi, Necip Fazıl Kısakürek Caddesi, No:15/A Çekmeköy / İstanbul (ISTANBUL)",
+            "telefon": "(216) 642-53-84",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Mehmet%20Akif%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Taşdelen Eczanesi",
+            "adres": "Güngören Mahallesi, Turgut Özal Caddesi No:66-70F Çekmeköy / İstanbul (ISTANBUL)",
+            "telefon": "(507) 194-88-76",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ta%C5%9Fdelen%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Büşra Kara Eczanesi",
+            "adres": "Oruçreis Mahallesi, Şehit Ali Karahan Caddesi No:23-25/B Esenler / İstanbul (ISTANBUL)",
+            "telefon": "(212) 629-30-35",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=B%C3%BC%C5%9Fra%20Kara%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Canbal Eczanesi",
+            "adres": "Atışalanı Mahallesi, Taşocağı Caddesi No:27/A Esenler / İstanbul (ISTANBUL)",
+            "telefon": "(212) 429-01-09",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Canbal%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Zaman Eczanesi",
+            "adres": "Kazım Karabekir Mahallesi, Çinçindere Caddesi, No:77/A Karabayır Esenler / İstanbul (ISTANBUL)",
+            "telefon": "(212) 508-07-77",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Zaman%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Önder Eczanesi",
+            "adres": "New Residence altı, Esenyurt SGK binasından Innovia 2 Sitesine doğru inerken 400 metre sonra Solda (ISTANBUL)",
+            "telefon": "(212) 852-06-72",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%96nder%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Mehmet Sayan Eczanesi",
+            "adres": "Örnek Mahallesi, Fikri Sönmez Caddesi No:25/B Esenyurt / İstanbul (ISTANBUL)",
+            "telefon": "(212) 758-43-21",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Mehmet%20Sayan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "İnci Eczanesi",
+            "adres": "Akevler Mahallesi, Pazaryolu Caddesi No:116/B Esenyurt / İstanbul (ISTANBUL)",
+            "telefon": "(212) 505-59-59",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C4%B0nci%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Başakıl Eczanesi",
+            "adres": "Yeşil Caminin Sokağında, Mehmet Akif Ersoy Parkı Halk Eğitim karşısı (ISTANBUL)",
+            "telefon": "(534) 465-36-54",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ba%C5%9Fak%C4%B1l%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Nişanca Eczanesi",
+            "adres": "Nişanca Mahallesi, Nazırağa Yokuşu Sokak No:35 Eyüp / İstanbul (ISTANBUL)",
+            "telefon": "(212) 544-51-42",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ni%C5%9Fanca%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Göktürk Sibel Eczanesi",
+            "adres": "Göktürk Merkez Mahallesi, Göktürk Caddesi No:48/D Göktürk Eyüp / İstanbul (ISTANBUL)",
+            "telefon": "(212) 322-11-59",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%B6kt%C3%BCrk%20Sibel%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Polat Eczanesi",
+            "adres": "Rami Cuma Mahallesi, Bağlar Caddesi No:5 Eyüp / İstanbul (ISTANBUL)",
+            "telefon": "(212) 302-04-43",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Polat%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Egem Eczanesi",
+            "adres": "Haseki Sultan Mahallesi, Turgut Özal Millet Caddesi No:11/B Aksaray Fatih / İstanbul (ISTANBUL)",
+            "telefon": "(212) 530-03-32",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Egem%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Çemberlitaş Merkez Eczanesi",
+            "adres": "Emin Sinan Mahallesi, Yeniçeriler Caddesi No:3/B Fatih / İstanbul (ISTANBUL)",
+            "telefon": "(212) 812-67-90",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%87emberlita%C5%9F%20Merkez%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Tevhid Eczanesi",
+            "adres": "İskenderpaşa Mahallesi, Kıztaşı Caddesi No:7 İskenderpaşa / Fatih / İstanbul (ISTANBUL)",
+            "telefon": "(212) 534-38-23",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Tevhid%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Erdoğan Eczanesi",
+            "adres": "Kocamustafapaşa Mahallesi, Müşir Süleymanpaşa Sokak No:35/A Kocamustafapaşa Fatih / İstanbul (ISTANBUL)",
+            "telefon": "(212) 529-00-60",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Erdo%C4%9Fan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Cihad Eczanesi",
+            "adres": "Barbaros Hayrettinpaşa Mahallesi, Eski Edirne Asfaltı Caddesi No:220 Küçükköy Gaziosmanpaşa / İstanbul (ISTANBUL)",
+            "telefon": "(212) 618-44-48",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Cihad%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Taksim Eczanesi",
+            "adres": "Karayolları Mahallesi, 623.Sokak No:11/A Gaziosmanpaşa / İstanbul (ISTANBUL)",
+            "telefon": "(212) 537-35-13",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Taksim%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Yeni Umut Eczanesi",
+            "adres": "Fevzi Çakmak Mahallesi, Cengiz Topel Caddesi, No:170/A Küçükköy Gaziosmanpaşa / İstanbul (ISTANBUL)",
+            "telefon": "(212) 609-24-08",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Yeni%20Umut%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Gün Burak Eczanesi",
+            "adres": "Güngören Merkez Mahallesi, Bağlar Caddesi No:3/1A Güngören / İstanbul (ISTANBUL)",
+            "telefon": "(212) 461-20-49",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%BCn%20Burak%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Umut Eczanesi",
+            "adres": "Abdurrahman Nafiz Gürman Mahallesi, Kınalıtepe Sokak No:73 Merter Güngören / İstanbul (ISTANBUL)",
+            "telefon": "(212) 506-93-72",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Umut%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Elit Eczanesi",
+            "adres": "Göztepe Mahallesi, Bağdat Caddesi No:209/A Çiftehavuzlar / Kadıköy / İstanbul (ISTANBUL)",
+            "telefon": "(216) 363-20-20",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Elit%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Begonvil Eczanesi",
+            "adres": "Erenköy Tren Durağı İstasyon Caddesi çıkışı, Ethem Efendi Caddesi Grosper Marketin yanından girince ileride (ISTANBUL)",
+            "telefon": "(216) 356-15-66",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Begonvil%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Aybüke İrem Eczanesi",
+            "adres": "Feneryolu Mahallesi, Fahrettin Kerim Gökay Caddesi No:138/A Kadıköy / İstanbul (ISTANBUL)",
+            "telefon": "(538) 529-90-49",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ayb%C3%BCke%20%C4%B0rem%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Aybüke Eczanesi",
+            "adres": "Salı Pazarı yolu üzeri, Hasanpaşa Polis Karakolu yakını, BİM ve Mopaş Marketler karşısı (ISTANBUL)",
+            "telefon": "(216) 339-78-82",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ayb%C3%BCke%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Verda Eczanesi",
+            "adres": "Bahariye Caddesi üzerinde, Moda İlkokuluna ve Mehmet Ayvalıtaş Meydanına 50 metre mesafede (ISTANBUL)",
+            "telefon": "(216) 337-19-94",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Verda%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Atlas Eczanesi",
+            "adres": "Sahrayıcedit Mahallesi, İnönü Caddesi No:14/A Kadıköy / İstanbul (ISTANBUL)",
+            "telefon": "(216) 771-10-12",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Atlas%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Burçin Eczanesi",
+            "adres": "Ticaret Odası İlkokulu arkası (ISTANBUL)",
+            "telefon": "(212) 270-01-43",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Bur%C3%A7in%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Ocak Eczanesi",
+            "adres": "Yahya Kemal Mahallesi, Ahlat Sokak No:3/A Gültepe / Kağıthane / İstanbul (ISTANBUL)",
+            "telefon": "(212) 281-49-24",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ocak%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Avrupa Plus Eczanesi",
+            "adres": "Avrupa Kent Esentepe Konutları altı, Espressolab yanı, Kartal Oto Sanayi çaprazı (ISTANBUL)",
+            "telefon": "(216) 514-71-57",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Avrupa%20Plus%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "İncir Eczanesi",
+            "adres": "Orhantepe Mahallesi, Saraylar Caddesi No:80/A Orhantepe / Kartal / İstanbul (ISTANBUL)",
+            "telefon": "(216) 383-08-21",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C4%B0ncir%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Kural Eczanesi",
+            "adres": "Soğanlık Sağlık Ocağı (Soğanlık Kültür Merkezi Binası) karşısı, Salih Nafiz Tüzün İlköğretim Okulu Arka Sokağı (ISTANBUL)",
+            "telefon": "(216) 309-09-00",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Kural%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Rüya Eczanesi",
+            "adres": "Yalı Mahallesi, Topel Sokak No:3/A Topselvi Kartal / İstanbul (ISTANBUL)",
+            "telefon": "(216) 488-15-21",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=R%C3%BCya%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Cennet Koru Eczanesi",
+            "adres": "Cennet Koru Sitesi Dükkanları, Macera Parkı üst tarafı, 12 Nolu Aile Sağlığı Merkezi yanı (ISTANBUL)",
+            "telefon": "(212) 801-75-34",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Cennet%20Koru%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Halkalı Meydan Eczanesi",
+            "adres": "Halkalı Meydanda Finansbank'ın 100 metre ilerisi, Halkalı Meydan Projesi karşısı (ISTANBUL)",
+            "telefon": "(212) 693-51-75",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Halkal%C4%B1%20Meydan%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Sibel Eczanesi",
+            "adres": "Atatürk Mahallesi, Güner Sokak No:34/B Küçükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(212) 495-45-80",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Sibel%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Atilla Eczanesi",
+            "adres": "Kanarya Mahallesi, Balıkçın Caddesi No:46/B Küçükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(212) 424-04-97",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Atilla%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Özgüler Eczanesi",
+            "adres": "Kemalpaşa Mahallesi, Halkalı Caddesi No:113/B Sefaköy Küçükçekmece / İstanbul (ISTANBUL)",
+            "telefon": "(212) 425-27-27",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%96zg%C3%BCler%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Çare Eczanesi",
+            "adres": "Sultanmurat Caddesi üzerindeki Opet'in biraz ilerisindeki Caminin karşı sokağında, Sultan Murat Parkı ve İlköğretim Okulunun karşısı (ISTANBUL)",
+            "telefon": "(212) 598-03-44",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%87are%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Nergis Eczanesi",
+            "adres": "Maltepe Merkez Camii E-5 istikameti yönü, Kuveyt Türk Bankasının 50 metre ilerisi Sol taraf (ISTANBUL)",
+            "telefon": "(216) 352-02-88",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Nergis%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Onur Eczanesi",
+            "adres": "Zümrütevler Mahallesi, Çağlayan Sokak No:29/2 Zümrütevler Maltepe / İstanbul (ISTANBUL)",
+            "telefon": "(216) 589-82-82",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Onur%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Neva Eczanesi",
+            "adres": "Fevzi Çakmak Mahallesi, Erzincan Caddesi No:118/B-J Pendik / İstanbul (ISTANBUL)",
+            "telefon": "(216) 208-30-80",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Neva%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Yeni Flora Eczanesi",
+            "adres": "Yenişehir Mahallesi, Bakü Caddesi No:6 Pendik / İstanbul (ISTANBUL)",
+            "telefon": "(216) 683-97-89",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Yeni%20Flora%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Mevlana Eczanesi",
+            "adres": "Mevlana Mahallesi, Veysel Karani Caddesi No:235/B-7 Sancaktepe / İstanbul (ISTANBUL)",
+            "telefon": "(530) 632-44-67",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Mevlana%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Liva Dora Eczanesi",
+            "adres": "Abdurrahman Gazi Mahallesi, Sevenler Caddesi No:35/A Sancaktepe / İstanbul (ISTANBUL)",
+            "telefon": "(216) 510-62-49",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Liva%20Dora%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Sarıyer Eczanesi",
+            "adres": "Sarıyer Merkez Mahallesi, Türbe Çeşme Sokak No:11 Sarıyer / İstanbul (ISTANBUL)",
+            "telefon": "(212) 271-22-78",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Sar%C4%B1yer%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Kamer İlter Eczanesi",
+            "adres": "Ferahevler Mahallesi, Adnan Kahveci Caddesi No:43/3 Tarabya / Sarıyer / İstanbul (ISTANBUL)",
+            "telefon": "(212) 223-80-24",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Kamer%20%C4%B0lter%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Uzman Eczanesi",
+            "adres": "Çavuş Mahallesi, Üsküdar Caddesi No:144 Şile / İstanbul (ISTANBUL)",
+            "telefon": "(216) 711-59-17",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Uzman%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Seval Eczanesi",
+            "adres": "Alibey Mahallesi, Akçeşme Sokak No:1 Silivri / İstanbul (ISTANBUL)",
+            "telefon": "(212) 727-44-39",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Seval%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Konak Eczanesi",
+            "adres": "Yeni Mahallesi, Varnalı Caddesi No:33/D Silivri / İstanbul (ISTANBUL)",
+            "telefon": "(212) 892-27-88",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Konak%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Apak Eczanesi",
+            "adres": "19 Mayıs Mahallesi, 19 Mayıs Caddesi No:25/D 19 Mayıs Şişli / İstanbul (ISTANBUL)",
+            "telefon": "(212) 259-29-91",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Apak%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Royal Eczanesi",
+            "adres": "Halide Edip Adıvar Mahallesi, Darülaceze Caddesi No:17/A Şişli / İstanbul (ISTANBUL)",
+            "telefon": "(212) 219-19-99",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Royal%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Kuştepe Eczanesi",
+            "adres": "Kuştepe Mahallesi, İnönü Caddesi No:25/C Mecidiyeköy Şişli / İstanbul (ISTANBUL)",
+            "telefon": "(212) 212-16-40",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ku%C5%9Ftepe%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Rumeli 70 Eczanesi",
+            "adres": "Meşrutiyet Mahallesi, Rumeli Caddesi No:68-70B Şişli / İstanbul (ISTANBUL)",
+            "telefon": "(212) 231-70-70",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Rumeli%2070%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Bosna Eczanesi",
+            "adres": "Battalgazi Mahallesi, Bosna Bulvarı No:110/A Sultanbeyli / İstanbul (ISTANBUL)",
+            "telefon": "(216) 592-35-04",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Bosna%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Cenk Eczanesi",
+            "adres": "Battalgazi Mahallesi, Karadeniz Caddesi No:1/A Sultanbeyli / İstanbul (ISTANBUL)",
+            "telefon": "(216) 398-01-12",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Cenk%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Derman Eczanesi",
+            "adres": "Gazi Mahallesi, İsmetpaşa Caddesi No:46/B Sultangazi / İstanbul (ISTANBUL)",
+            "telefon": "(212) 343-09-65",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Derman%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Sultangazi Eczanesi",
+            "adres": "Eski Belediye Binası Sokağı - Sultangazi Haseki Eğitim Araştırma Hastanesi Acil karşısı (ISTANBUL)",
+            "telefon": "(212) 475-19-91",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Sultangazi%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Yıldırım Eczanesi",
+            "adres": "Sultangazi İlçe Sağlık Müdürlüğü karşısı, Lütfiye Nuri Burat Sağlık Ocağı karşısı (ISTANBUL)",
+            "telefon": "(212) 476-46-34",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Y%C4%B1ld%C4%B1r%C4%B1m%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Mutluluk Eczanesi",
+            "adres": "Yayla Mahallesi, Ayışığı Sokak No:4/A Tuzla / İstanbul (ISTANBUL)",
+            "telefon": "(216) 446-00-77",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Mutluluk%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Yaşar Eczanesi",
+            "adres": "Aydıntepe Mahallesi, 100.Yıl Caddesi No:81/A İçmeler / Tuzla / İstanbul (ISTANBUL)",
+            "telefon": "(216) 494-25-61",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ya%C5%9Far%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Şeyma Eczanesi",
+            "adres": "Ziraat Bankası Arka Sokağı, Şehit Pilot Bahadır Han Parkı ve Tuzla 6 Nolu Aile Sağlığı Merkezi karşısı, Perşembe Pazarının 2 Alt Sokağı (ISTANBUL)",
+            "telefon": "(216) 674-50-05",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C5%9Eeyma%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Oryapark Eczanesi",
+            "adres": "Saray Mahallesi, Küçüksu Caddesi, No:60-1B/15 İnkılap Ümraniye / İstanbul (ISTANBUL)",
+            "telefon": "(216) 611-50-50",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Oryapark%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Dörtyol Deva Eczanesi",
+            "adres": "Namık Kemal Mahallesi, Cengiz Topel Caddesi No:94/A Namıkkemal / Ümraniye / İstanbul (ISTANBUL)",
+            "telefon": "(216) 481-81-75",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=D%C3%B6rtyol%20Deva%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Ayşenur Eczanesi",
+            "adres": "Acıbadem Mahallesi, Acıbadem Caddesi No:220/E Üsküdar / İstanbul (ISTANBUL)",
+            "telefon": "(216) 514-76-21",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ay%C5%9Fenur%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Talimhane Eczanesi",
+            "adres": "Küçüksu Mahallesi, Kaldırım Caddesi No:27/B Üsküdar / İstanbul (ISTANBUL)",
+            "telefon": "(216) 308-00-24",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Talimhane%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Lokman Eczanesi",
+            "adres": "Çırpıcı Mahallesi, Prof.Dr.Turan Güneş Caddesi No:115 Zeytinburnu / İstanbul (ISTANBUL)",
+            "telefon": "(212) 546-69-62",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Lokman%20Eczanesi%20ISTANBUL"
+        },
+        {
+            "isim": "Yeni Tepe Eczanesi",
+            "adres": "Tepe Mahallesi, Kültür Caddesi No:4 Bismil / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(534) 079-06-21",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Yeni%20Tepe%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Gap Eczanesi",
+            "adres": "Özgürlük Bulvarı Deniz Bank Turkcell karşısı Bismil / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 415-60-39",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Gap%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Çermik Eczanesi",
+            "adres": "Tepe Mahallesi, Diyarbakır Caddesi No:104 Çermik / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(536) 497-95-16",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%87ermik%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Yorulmaz Eczanesi",
+            "adres": "Gazi Mahallesi, Turgut Özal Bulvarı Çınar / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(543) 435-44-92",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Yorulmaz%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Çüngüş Eczanesi",
+            "adres": "Karşıyaka Mahallesi, Cumhuriyet Meydanı No:4 Çüngüş / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 541-20-85",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%87%C3%BCng%C3%BC%C5%9F%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Şahin Eczanesi",
+            "adres": "15 Temmuz Mahallesi, Ergani Caddesi No:61/C Dicle / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(553) 820-31-91",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C5%9Eahin%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Berçem Eczanesi",
+            "adres": "Yenişehir Mahallesi, Sağlık Caddesi No:29/A Eğil / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 233-12-25",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ber%C3%A7em%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "İsranur Eczanesi",
+            "adres": "Adnan Menderes Mahallesi, Kıralan Dink Mevkisi Sokak No:2 Ergani / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(533) 284-78-95",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C4%B0sranur%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Köksal Eczanesi",
+            "adres": "Merkez Mahallesi, Salih Beg Caddesi No:4/A Hani / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 651-21-58",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=K%C3%B6ksal%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Emir Eczanesi",
+            "adres": "Hürriyet Mahallesi, Yenişehir 2.Sokak No:10/A Hazro / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 671-21-65",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Emir%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Mizgin Eczanesi",
+            "adres": "Yenişehir Mahallesi, Hastane Caddesi No:33/B Kocaköy / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(544) 163-05-02",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Mizgin%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Zehra Eczanesi",
+            "adres": "Merkez Eski Mahalle, Cengiz Topel Caddesi No:53/A Kulp / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 831-22-86",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Zehra%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Lice Eczanesi",
+            "adres": "Karahasan Mahallesi, Diyarbakır Caddesi No:202/A Lice / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 861-25-23",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Lice%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Latifoğlu Alipınar Eczanesi",
+            "adres": "Alipınar Mahallesi, 8. Anajet Üs Komutanlığı karşısı Alay Kavşağı Bağlar / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 236-94-90",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Latifo%C4%9Flu%20Alip%C4%B1nar%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Park Eczanesi",
+            "adres": "Batıkent Sitesi Batıkent Sağlık Ocağı yanı Koşuyolu Parkı karşısı Bağlar / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 234-71-15",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Park%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Turkuaz Eczanesi",
+            "adres": "Bağcılar Mahallesi, Zümrütkent Caddesi, Bulutbey Kuzey Plaza Altı No:35/D Bağlar / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 503-89-35",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Turkuaz%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Huzurevleri Eczanesi",
+            "adres": "Huzurevleri Mahallesi, Dr.Sıtkı Göral Caddesi, Yıldem Apt. No:24/A Kayapınar / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(544) 999-48-41",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Huzurevleri%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Durgun Eczanesi",
+            "adres": "Diclekent Mahallesi, Selahaddin Eyyubi Bulvarı, Ataşlar Ninova Evleri B-Blok No:34BA Kayapınar / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 503-23-13",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Durgun%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Aile Eczanesi",
+            "adres": "Medya Mahallesi, 637/5.Sokak, Umut Nazende Sitesi A-Blok No:3AD Kayapınar / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(506) 533-22-26",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Aile%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Ceyhun Eczanesi",
+            "adres": "İl Otogarından sonra Tepeşehir kavşağı Işıklarından sonra sağda Çarmar Market ve Cesa mobilya yanı, Zana Düğün Salonu çaprazı (DIYARBAKIR)",
+            "telefon": "(412) 257-43-18",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ceyhun%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Bayram Eczanesi",
+            "adres": "450 Evler Denizlife Sitesi B-Blok altı Yenişehir / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(538) 413-21-71",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Bayram%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Pasur Eczanesi",
+            "adres": "Venividi Hastanesi yanı, Adidas Sembol Spor-A101 yanı (DIYARBAKIR)",
+            "telefon": "(412) 229-26-72",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Pasur%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Meya Eczanesi",
+            "adres": "Konak Mahallesi, Dicle Caddesi Silvan / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 711-30-00",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Meya%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Sümer Eczanesi",
+            "adres": "Tepe Mahallesi Muhtarlığı Yanı Ve Hacı Salih Özaydın Cami Yanı Bismil / Tepe (DIYARBAKIR)",
+            "telefon": "(533) 659-83-40",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=S%C3%BCmer%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Bismil Eczanesi",
+            "adres": "Özgürlük Bulvarı No:56 Bismil / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 415-10-75",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Bismil%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Halk Eczanesi",
+            "adres": "Tepe Mahallesi, Diyarbakır Caddesi No:94 Çermik / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 461-20-60",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Halk%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Gülfem Eczanesi",
+            "adres": "Adres Atatürk Bulvarı Gazi Mahallesi No 12A Çınar Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 511-33-21",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=G%C3%BClfem%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Kaplan Eczanesi",
+            "adres": "Karşıyaka Mahallesi, Sedat Arıtürk Bulvarı No:10/B Çüngüş / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(536) 852-04-62",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Kaplan%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Atay Eczanesi",
+            "adres": "15 Temmuz Mahallesi, Ergani Caddesi No:105/B Dicle / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 561-25-61",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Atay%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Haluk Eczanesi",
+            "adres": "Kale Mahallesi, Bey Sokak No:14/A Eğil / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(545) 691-72-25",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Haluk%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Vildan Eczanesi",
+            "adres": "Kemertaş Mahallesi, Hastane Caddesi No:7/A Ergani / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(554) 508-55-44",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Vildan%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Aslan Eczanesi",
+            "adres": "Merkez Mahallesi, Nergiz 3.Sokak No:24/A Hani / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 651-22-00",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Aslan%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Değer Eczanesi",
+            "adres": "Topalan Mahallesi, Hastane Caddesi No:8 Hazro / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(537) 382-89-39",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=De%C4%9Fer%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Nergis Eczanesi",
+            "adres": "Yenişehir Mahallesi, Hastane Caddesi No:39/B Kocaköy / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 811-21-21",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Nergis%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Melike Eczanesi",
+            "adres": "Turgut Özal Mahallesi, Turgut Özal Bulvarı No:67/E Kulp / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 831-34-34",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Melike%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Kadir Eczanesi",
+            "adres": "Karahasan Mahallesi, Diyarbakır Caddesi No:204/C Lice / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 861-30-50",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Kadir%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Mesut Eczanesi",
+            "adres": "Sento Caddesi, Hacı Süleyman Aydın Sit. Altı C Blok No:83/b Kuruçeşme Ziraat Bankası Bitişiği Bağlar Merkez / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 251-03-07",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Mesut%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Raperin Eczanesi",
+            "adres": "Mevalana Halit Mahallesi Emek Caddesi Cezaevi Üst Köşe Yukarısı Eski Mega Center Arkası Rıhan Parkı Yanı Merkez / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(539) 769-74-07",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Raperin%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Veysel Eczanesi",
+            "adres": "Newroz Park Sahne arkası, Saat Kulesi aşağısı, Selenyum Sitesi karşı çaprazı, Necip Fazıl Kısakürek Anadolu Lisesi yanı (DIYARBAKIR)",
+            "telefon": "(412) 503-18-18",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Veysel%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "İrfan Eczanesi",
+            "adres": "Huzurevleri Mahallesi, 12.sokak Ağma Apt.altı Tesisler Urfayolu Liv Suit Otel Arka Sokağı Merkez / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 237-47-72",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C4%B0rfan%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Ekin Dila Eczanesi",
+            "adres": "Peyas Mahallesi, 213.Sokak, Bulutlar Sitesi A-Blok No:4CA Kayapınar / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(530) 568-99-79",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ekin%20Dila%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Akdemir Eczanesi",
+            "adres": "0 (532) 335-54-52 (DIYARBAKIR)",
+            "telefon": "(532) 335-54-52",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Akdemir%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Ceylan Eczanesi",
+            "adres": "İstasyon Caddesi, Eski Hal Bitişiği No:47 Urfa Kapı Merkez / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 226-62-18",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Ceylan%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Poyraz Eczanesi",
+            "adres": "Dağkapı Meydanı, Dolmuş Durağı karşısı, Şafak Kahvaltı Salonu yanı, Star Otel altı (DIYARBAKIR)",
+            "telefon": "(412) 223-00-03",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Poyraz%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Nergiz Eczanesi",
+            "adres": "Yenişehir Mahallesi, Esenlik Caddesi No:10/E Silvan / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 711-55-51",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Nergiz%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Çağdaş Eczanesi",
+            "adres": "Kurtuluş Mahallesi, İstasyon Caddesi No:42/B Bismil / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 415-32-61",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%87a%C4%9Fda%C5%9F%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Hamravat Eczanesi",
+            "adres": "Çukur Mahallesi, Kumludere Sokak No:12/C Çermik / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(537) 520-52-84",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Hamravat%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Zerzevan Eczanesi",
+            "adres": "Cumhuriyet Mahallesi, Sadlık Sokak No:5/1 Çınar / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 511-25-11",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Zerzevan%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Dinç Eczanesi",
+            "adres": "15 Temmuz Mahallesi, Ergani 5.Sokak No:3/C Dicle / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(507) 553-71-21",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Din%C3%A7%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Kan Eczanesi",
+            "adres": "Kale Mahallesi, Bey Sokak No:8/B Eğil / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(531) 316-87-26",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Kan%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Marmara Eczanesi",
+            "adres": "Yenişehir Gimart Market karşındaki Cadde Divan Kafe'nin yanındaki sokak, 14 Nolu Aile Sağlığı Merkezi yanı (DIYARBAKIR)",
+            "telefon": "(412) 503-91-59",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Marmara%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Hazro Eczanesi",
+            "adres": "Cami Mahallesi, Şehitlik Caddesi, Ulaş Yapı No:16/E Hazro / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 671-20-94",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Hazro%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Büşra Eczanesi",
+            "adres": "Yenişehir Mahallesi, Hastane Caddesi No:41/A Kocaköy / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 811-22-33",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=B%C3%BC%C5%9Fra%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Elif Eczanesi",
+            "adres": "Özal Mahallesi, Diyarbakır Caddesi No:34 Kulp / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 831-28-31",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Elif%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Kılıç Eczanesi",
+            "adres": "Karahasan Mahallesi, Diyarbakır Caddesi No:142/C-D Lice / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 861-22-57",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=K%C4%B1l%C4%B1%C3%A7%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Nezahat Eczanesi",
+            "adres": "Nükhet Coşkun Caddesi, Oryıl Petrol ile Özel Bağlar Hastanesi arası, Eski Sağlık Ocağı bitişiği Bağlar / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 236-94-94",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Nezahat%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Reyhan Eczanesi",
+            "adres": "Selahattin Eyyubi Mahallesi, Aydın Arslan Bulvarı No:21/C Bağlar / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(533) 373-41-21",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Reyhan%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Vizyon Eczanesi",
+            "adres": "Newroz Parkı aşağısında, Biçen Market'i geçtikten sonra Sağdaki ara yolda, köşede Keyf-i Diyar Lahmacun Salonun olduğu Eski Şengal Caddesi üzeri (DIYARBAKIR)",
+            "telefon": "(412) 502-25-64",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Vizyon%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Masal Eczanesi",
+            "adres": "Huzurevleri Mahallesi, 2.Sokak No:10/C Kayapınar / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(535) 063-16-66",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Masal%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Aksünger Eczanesi",
+            "adres": "Medya Mahallesi, Diclekent Bulvarı, 200. Sokak, Mahmut Bey Sitesi D-Blok No:5/M Kayapınar / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 235-12-68",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Aks%C3%BCnger%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Dicle Eczanesi",
+            "adres": "75.Yıl Go Petrol'ün karşısındaki Nazım Hikmet Caddesi Tema Parkı ve Aslan Market arasında Solda (DIYARBAKIR)",
+            "telefon": "(412) 611-80-56",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Dicle%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Enes Ezel Eczanesi",
+            "adres": "Kooperatifler Mahallesi, Yaşar Kemal Caddesi No:17/C Yenişehir / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(540) 241-21-00",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Enes%20Ezel%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Salih Eczanesi",
+            "adres": "Prof.Dr.Selahattin Yazıcıoğlu Caddesi, Oryıl My Office C Blok No:53-54 Yenişehir / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(544) 515-24-16",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Salih%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Nur Eczanesi",
+            "adres": "Kale Mahallesi, Karabehlülbey Caddesi No:3/A Silvan / Diyarbakır (DIYARBAKIR)",
+            "telefon": "(412) 711-72-75",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Nur%20Eczanesi%20DIYARBAKIR"
+        },
+        {
+            "isim": "Miel Eczanesi",
+            "adres": "Cumhurbaşkanlığı Sarayı karşısı, Omağ Sitesi-Ness Spor Salonu yanı (KIBRIS-LEFKOSA)",
+            "telefon": "(542) 889-00-09",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Miel%20Eczanesi%20LEFKOSA"
+        },
+        {
+            "isim": "Çise Yıldırım Eczanesi",
+            "adres": "Marmara Bölgesi 4.Sokak No:5 Lefkoşa (KIBRIS-LEFKOSA)",
+            "telefon": "(539) 106-52-86",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C3%87ise%20Y%C4%B1ld%C4%B1r%C4%B1m%20Eczanesi%20LEFKOSA"
+        },
+        {
+            "isim": "Vaiz Eczanesi",
+            "adres": "Lefkoşa Belediyesi ile Çalışma Bakanlığı arası, Chicken Planet yolu Polis Müdürlüğüne dönülen köşede (KIBRIS-LEFKOSA)",
+            "telefon": "(392) 228-09-90",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Vaiz%20Eczanesi%20LEFKOSA"
+        },
+        {
+            "isim": "İncirli Eczanesi",
+            "adres": "46/a Kemal Şemiler Caddesi, Aydemet - Kermiya, Lefkoşa (KIBRIS-LEFKOSA)",
+            "telefon": "(392) 330-20-22",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=%C4%B0ncirli%20Eczanesi%20LEFKOSA"
+        },
+        {
+            "isim": "Fatma Yürün Eczanesi",
+            "adres": "Bolu Sokak, Dük. 74/c Küçük Kaymaklı Lefkoşa (KIBRIS-LEFKOSA)",
+            "telefon": "(392) 227-10-80",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Fatma%20Y%C3%BCr%C3%BCn%20Eczanesi%20LEFKOSA"
+        },
+        {
+            "isim": "Dilay Kılçık Eczanesi",
+            "adres": "Arun Un Fabrikasını geçince Askeri Gazino ve K-Pet Vedat Benzinci arkası, Ovis Ortaköy çaprazı (KIBRIS-LEFKOSA)",
+            "telefon": "(392) 330-00-89",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Dilay%20K%C4%B1l%C3%A7%C4%B1k%20Eczanesi%20LEFKOSA"
+        },
+        {
+            "isim": "Balın Eczanesi",
+            "adres": "Dr.Burhan Nalbantoğlu Caddesi, Alpal Binaları No:24 Lefkoşa (KIBRIS-LEFKOSA)",
+            "telefon": "(392) 223-18-13",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Bal%C4%B1n%20Eczanesi%20LEFKOSA"
+        },
+        {
+            "isim": "Laden Akbatur Eczanesi",
+            "adres": "Selçuklu Caddesi No:46 Adıgüzel Apt. Lefkoşa (KIBRIS-LEFKOSA)",
+            "telefon": "(392) 227-25-75",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Laden%20Akbatur%20Eczanesi%20LEFKOSA"
+        },
+        {
+            "isim": "Didem Özkayalı Eczanesi",
+            "adres": "İkinci Selim Caddesi, Mustafa Hacı Ali 20 Apt. No:9 Köşklüçiftlik / Lefkoşa (KIBRIS-LEFKOSA)",
+            "telefon": "(392) 227-71-11",
+            "harita_linki": "https://www.google.com/maps/search/?api=1&query=Didem%20%C3%96zkayal%C4%B1%20Eczanesi%20LEFKOSA"
         }
     ]
 }
